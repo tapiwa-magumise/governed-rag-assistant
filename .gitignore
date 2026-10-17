@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+data/
+.env
+.DS_Store
+node_modules/
+web/dist/
+terraform/.terraform/
+*.tfstate*

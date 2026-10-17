@@ -1,0 +1,96 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      evaluate:
+        description: "Rebuild the index and run the paid evaluation (about $1 of Bedrock)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: offline tests and lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: ruff check .
+      - run: pytest -q
+
+  terraform:
+    name: terraform format and validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: hashicorp/setup-terraform@v4
+      - run: terraform -chdir=terraform fmt -check -recursive
+      - run: terraform -chdir=terraform init -backend=false -input=false
+      - run: terraform -chdir=terraform validate
+
+  web:
+    name: web page type-check and build
+    runs-on: ubuntu-latest
+    if: hashFiles('web/package.json') != ''
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci --prefix web
+      - run: npm run --prefix web build
+
+  evaluate:
+    name: rebuild the index and run the evaluation sets
+    if: github.event_name == 'workflow_dispatch' && inputs.evaluate
+    needs: test
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: read
+      id-token: write   # N9: signs in to AWS over OIDC as the app role; there are no stored keys
+    services:
+      db:
+        image: pgvector/pgvector:0.8.1-pg17
+        env:
+          POSTGRES_USER: rag
+          POSTGRES_PASSWORD: rag-local-only
+          POSTGRES_DB: rag
+        ports: ["5433:5432"]
+        options: >-
+          --health-cmd "pg_isready -U rag -d rag" --health-interval 2s --health-retries 30
+    env:
+      RAG_AWS_CONFIG: ${{ secrets.RAG_AWS_CONFIG }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: ${{ secrets.RAG_APP_ROLE_ARN }}
+          aws-region: eu-west-2
+      - run: psql postgresql://rag:rag-local-only@localhost:5433/rag -f sql/schema.sql
+      - name: Download the corpus and compare it with the committed manifest
+        run: python scripts/extract.py
+      - run: python scripts/index.py
+      - run: python scripts/evaluate.py
+      - name: N1, no personal data in the passages or the audit log
+        run: python scripts/check_pii.py
+      - uses: actions/upload-artifact@v7
+        with:
+          name: evaluation
+          path: evals/results/

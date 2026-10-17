@@ -1,0 +1,10 @@
+{"ocid": "ocds-test-000001", "id": "000001-2026", "date": "2026-09-15T10:00:00+01:00",
+ "buyer": {"name": "Example Borough Council"},
+ "tender": {"title": "Cloud hosting services", "description": "Hosting for the council's case management system.",
+            "classification": {"scheme": "CPV", "id": "72000000", "description": "IT services"},
+            "mainProcurementCategory": "services", "value": {"amount": 250000, "currency": "GBP"},
+            "tenderPeriod": {"endDate": "2026-10-20T12:00:00+01:00"},
+            "lots": [{"id": "1", "title": "Hosting", "description": "Managed hosting.", "value": {"amount": 250000, "currency": "GBP"}}]},
+ "parties": [{"name": "Example Borough Council", "roles": ["buyer"],
+              "address": {"streetAddress": "1 Fictional Street", "postalCode": "ZZ1 1ZZ"},
+              "contactPoint": {"name": "Alex Placeholder", "email": "alex.placeholder@example.org", "telephone": "+44 1632 960001"}}]}

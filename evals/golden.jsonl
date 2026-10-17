@@ -1,0 +1,32 @@
+{"id": "g01", "question": "How long is the mandatory standstill period after a contract award notice?", "expect_doc": "Competitive Tendering Procedures|Direct Award|Contract Award Notices", "facts": ["eight working days|8 working days|8 day"]}
+{"id": "g02", "question": "If a planned procurement notice was published early enough, how short can the tendering period be?", "expect_doc": "Planned Procurement Notice|Time Periods|Competitive Tendering", "facts": ["10 days|ten days"]}
+{"id": "g03", "question": "How far ahead of the tender notice must a planned procurement notice go out to count as qualifying?", "expect_doc": "Planned Procurement Notice|Competitive Tendering", "facts": ["40 days"]}
+{"id": "g04", "question": "What is the usual minimum participation period in a competitive flexible procedure, and can urgency shorten it?", "expect_doc": "Time Periods", "facts": ["25 days", "10 days"]}
+{"id": "g05", "question": "When does a contracting authority have to prepare a conflicts assessment?", "expect_doc": "Conflicts of Interest", "facts": ["before publishing a tender|before publishing a tender or transparency notice|tender or transparency notice"]}
+{"id": "g06", "question": "Who runs the debarment list and where is it published?", "expect_doc": "Exclusions|Debarment", "facts": ["Procurement Review Unit"]}
+{"id": "g07", "question": "What spending level means an authority must publish a pipeline notice?", "expect_doc": "Pipeline Notice|Below-Threshold|Frameworks", "facts": ["\u00a3100 million"]}
+{"id": "g08", "question": "Above what value must a below-threshold contract be advertised with a notice by a central government authority, and by other authorities?", "expect_doc": "Below-Threshold", "facts": ["\u00a312,000", "\u00a330,000"]}
+{"id": "g09", "question": "Above what value do payments under public contracts have to be published, and how often?", "expect_doc": "Contract Payment Information", "facts": ["\u00a330,000", "quarterly"]}
+{"id": "g10", "question": "By how much can a below-threshold modification change the value of a services contract, and of a works contract?", "expect_doc": "Contract Modifications", "facts": ["10%", "15%"]}
+{"id": "g11", "question": "When does a modified contract have to be published in full after a contract change notice?", "expect_doc": "Contract Modifications", "facts": ["\u00a35 million"]}
+{"id": "g12", "question": "How soon after a qualifying modification must the modified contract or the modification be published?", "expect_doc": "Contract Modifications", "facts": ["90 days"]}
+{"id": "g13", "question": "Under the unforeseeable circumstances ground, what's the limit on increasing a contract's value?", "expect_doc": "Contract Modifications", "facts": ["50%"]}
+{"id": "g14", "question": "How long does an open framework last in total, and how often must it be reopened?", "expect_doc": "Frameworks", "facts": ["8 years|eight years", "three years|3 years", "five years|5 years"]}
+{"id": "g15", "question": "How long does a supplier have to bring a claim about a direct award?", "expect_doc": "Direct Award", "facts": ["30 days"]}
+{"id": "g16", "question": "Within how many days of a breach must a contract performance notice be published?", "expect_doc": "Contract Performance Notices", "facts": ["30 days"]}
+{"id": "g17", "question": "From what date does the Procurement Act 2023 apply to procurements?", "expect_doc": "PPN 00|Transitional", "facts": ["24 February 2025"]}
+{"id": "g18", "question": "Can a supplier that isn't from the UK or a treaty state take a contracting authority to court under the Act?", "expect_doc": "Treaty State Suppliers", "facts": ["not able|cannot|can't", "Procurement Review Unit"]}
+{"id": "p01", "question": "What targets must central government departments set for spending with SMEs and VCSEs?", "expect_doc": "PPN 001|Procurement Policy Note 001", "facts": ["three year|three-year|3 year", "two year|two-year|2 year"]}
+{"id": "p02", "question": "What is the minimum weighting for social value in central government contracts?", "expect_doc": "PPN 002", "facts": ["10%"]}
+{"id": "p03", "question": "From when is the new social value model mandatory?", "expect_doc": "PPN 002|Social Value Model", "facts": ["1 October 2025"]}
+{"id": "p04", "question": "Which contracts need a Carbon Reduction Plan under PPN 006?", "expect_doc": "PPN 006", "facts": ["\u00a35 million"]}
+{"id": "p05", "question": "What payment performance does a supplier need to show for major contracts under PPN 018?", "expect_doc": "PPN 018", "facts": ["45 days", "95%", "60 days"]}
+{"id": "p06", "question": "If a contract needs Cyber Essentials, how often must the supplier renew it?", "expect_doc": "PPN 014", "facts": ["annually|every year|each year"]}
+{"id": "p07", "question": "What must buyers do before design and procurement decisions on contracts that involve steel?", "expect_doc": "PPN 022", "facts": ["Digital Catalogue"]}
+{"id": "p08", "question": "What is the 2026 threshold for a utilities works contract?", "expect_doc": "PPN 023", "facts": ["\u00a35,193,000"]}
+{"id": "p09", "question": "Is a supplier allowed to use AI to write its bid?", "expect_doc": "PPN 017", "facts": ["not prohibited|isn't prohibited|is not prohibited|allowed|benefits"]}
+{"id": "p10", "question": "Must public bodies end their existing contracts with Russian suppliers?", "expect_doc": "PPN 007", "facts": ["no central policy mandate|not required|lies with|decision"]}
+{"id": "n01", "question": "What is the estimated value of the Scottish Police Authority's corporate technology platform tender?", "expect_doc": "082808-2026", "facts": ["51,700,000|51.7 million"]}
+{"id": "n02", "question": "When is the tender deadline for the NHS Tayside taxi service contract?", "expect_doc": "083005-2026", "facts": ["6 October 2026|2026-10-06|06/10/2026"]}
+{"id": "n03", "question": "Who is buying filtration media and what is the contract worth?", "expect_doc": "083177-2026", "facts": ["Scottish Water", "60,000,000|60 million"]}
+{"id": "n04", "question": "What is the Scottish Government's DCEA Scotland Migration Service tender worth?", "expect_doc": "082434-2026", "facts": ["5,000,000|5 million"]}

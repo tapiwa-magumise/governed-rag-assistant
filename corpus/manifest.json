@@ -1,0 +1,2014 @@
+{
+ "notice_window": [
+  "2026-09-01T00:00:00",
+  "2026-10-01T00:00:00"
+ ],
+ "documents": [
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-define-phase/competitive-tendering-procedures-html",
+   "title": "Guidance: Competitive Tendering Procedures (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Define phase",
+   "updated": "2026-07-13T09:24:55+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-define-phase/competitive-tendering-procedures-html",
+   "sha256": "aba5b788e13a1dce2a49784ff5eef7cdaeaaa5d2653420da3e5567d48b9450a8"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-define-phase/direct-award-html",
+   "title": "Guidance: Direct Award (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Define phase",
+   "updated": "2026-07-13T09:24:55+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-define-phase/direct-award-html",
+   "sha256": "6aa89c337f1a8cb6888c58bc85a3c7bb16ef11f85ae28dcf3d47d208e52eb166"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-below-threshold-contracts-html",
+   "title": "Guidance: Below-Threshold Contracts (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Define phase",
+   "updated": "2026-07-13T09:24:55+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-below-threshold-contracts-html",
+   "sha256": "74859a37aad2da1965d1f9a34bf17ec84210a857df8a80379b06f7b27e63ba29"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-conflicts-of-interest-html",
+   "title": "Guidance: Conflicts of Interest (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Define phase",
+   "updated": "2026-07-13T09:24:55+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-conflicts-of-interest-html",
+   "sha256": "d1b9dc1bcd6f8b75fd502749d271d2cd128cb89efc2cbe5171220ca665465d91"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-dynamic-markets-html",
+   "title": "Guidance: Dynamic Markets (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Define phase",
+   "updated": "2026-07-13T09:24:55+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-dynamic-markets-html",
+   "sha256": "792e37f7903180dadbba276492c05cf3830b6b77e1b813c932a0e6abd99f3cb0"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-frameworks-html",
+   "title": "Guidance: Frameworks (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Define phase",
+   "updated": "2026-07-13T09:24:55+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-frameworks-html",
+   "sha256": "8e6d8a7d7cbb73e964908fbea00f33d7f660855319ec526fbfac90ee5dda20d9"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-lots-html",
+   "title": "Guidance: Lots (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Define phase",
+   "updated": "2026-07-13T09:24:55+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-lots-html",
+   "sha256": "912c025d6d70d819f46f5c16fd18c3a4ab818ea1d259fcdef60bc9b9ae0c6b0c"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-mixed-procurement-html",
+   "title": "Guidance: Mixed Procurement (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Define phase",
+   "updated": "2026-07-13T09:24:55+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-mixed-procurement-html",
+   "sha256": "30f57d4bfe1fe1c3ff05b5e103a48cb1d5e294a4f547979301b34c9a27036860"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-planned-procurement-notice-html",
+   "title": "Guidance: Planned Procurement Notice (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Define phase",
+   "updated": "2026-07-13T09:24:55+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-planned-procurement-notice-html",
+   "sha256": "b63cb307b7f39544a35ff3946020b01b74cbb1a40493377dc44b3bce96137d2a"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-preliminary-market-engagement-html",
+   "title": "Guidance: Preliminary Market Engagement (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Define phase",
+   "updated": "2026-07-13T09:24:55+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-preliminary-market-engagement-html",
+   "sha256": "f128ecfc4a299a23be404dd499a6f21fccf36770bd8653b7ddf5f1256dc1df89"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-technical-specifications-html",
+   "title": "Guidance: Technical Specifications (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Define phase",
+   "updated": "2026-07-13T09:24:55+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-technical-specifications-html",
+   "sha256": "de75e579630c39a1de09ccfbc4aa903d6666cf9a229761d19b0aa19726188a30"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-thresholds-html",
+   "title": "Guidance: Thresholds (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Define phase",
+   "updated": "2026-07-13T09:24:55+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-thresholds-html",
+   "sha256": "161a2360ff9e5a447f713247c506ee3103c64311394c62fdd16dae45fd9e6f12"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-treaty-state-suppliers-html",
+   "title": "Guidance: Treaty State Suppliers (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Define phase",
+   "updated": "2026-07-13T09:24:55+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-treaty-state-suppliers-html",
+   "sha256": "8d90b91c950f4b06ff151872ad63ddc71e2695fd86b525cf68874e35171d9b59"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-valuation-of-contracts-html",
+   "title": "Guidance: Valuation of Contracts (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Define phase",
+   "updated": "2026-07-13T09:24:55+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-define-phase/guidance-valuation-of-contracts-html",
+   "sha256": "601312ad69e74c89b3b580fc8e87d97010eb2024f86bf83956fce7573242affe"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-manage-phase/guidance-contract-modifications-html",
+   "title": "Guidance: Contract Modifications (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Manage phase",
+   "updated": "2026-07-20T15:07:48+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-manage-phase/guidance-contract-modifications-html",
+   "sha256": "6c59eb73eba5b346effffe180ff783991016b18c6de1eb8a4b7fe43fc336c088"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-manage-phase/guidance-contract-payment-information-html",
+   "title": "Guidance - Contract Payment Information (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Manage phase",
+   "updated": "2026-07-20T15:07:48+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-manage-phase/guidance-contract-payment-information-html",
+   "sha256": "d973d07387ab6095dbd827d9b8d3e4332103c101f7db7b16f940cfa6ea5a8889"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-manage-phase/guidance-contract-performance-notices-html",
+   "title": "Guidance: Contract Performance Notices (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Manage phase",
+   "updated": "2026-07-20T15:07:48+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-manage-phase/guidance-contract-performance-notices-html",
+   "sha256": "41bfa6a4168c5e23c6e919d92708f1147d3f99aa5e95d78ac1a08a86f73d7134"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-manage-phase/guidance-contract-termination-html",
+   "title": "Guidance: Contract Termination (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Manage phase",
+   "updated": "2026-07-20T15:07:48+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-manage-phase/guidance-contract-termination-html",
+   "sha256": "9fed94a6ce927865a0db0fdd5c4176ec77dddbaf2ef08b2283330b0c420d7928"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-manage-phase/guidance-electronic-invoicing-and-payment-html",
+   "title": "Guidance: Electronic Invoicing and Payment (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Manage phase",
+   "updated": "2026-07-20T15:07:48+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-manage-phase/guidance-electronic-invoicing-and-payment-html",
+   "sha256": "a269f13e14841f046b3325280c089b5fff967af838c61dd17d62934ce10e40ed"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-manage-phase/guidance-key-performance-indicators-html",
+   "title": "Guidance: Key Performance Indicators (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Manage phase",
+   "updated": "2026-07-20T15:07:48+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-manage-phase/guidance-key-performance-indicators-html",
+   "sha256": "df53ffcecefd46aeef75eea3ba756b4cd95140871acb8b938cd4803a51a8e563"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-manage-phase/guidance-payments-compliance-notices-html",
+   "title": "Guidance: Payments Compliance Notices (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Manage phase",
+   "updated": "2026-07-20T15:07:48+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-manage-phase/guidance-payments-compliance-notices-html",
+   "sha256": "05a460e8ef96c507e9f33357f61c5d0dfa1e14af10104508ea4ccf562e6af5b7"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-concession-contracts-html",
+   "title": "Guidance - Concession Contracts (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Plan phase",
+   "updated": "2026-04-15T12:48:16+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-concession-contracts-html",
+   "sha256": "600dc2077e48ee381d39392045da71d189fd515dfcbe6528593ca86c10a6fcb1"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-contracting-authority-definition-html",
+   "title": "Guidance: Contracting Authority definition (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Plan phase",
+   "updated": "2026-04-15T12:48:16+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-contracting-authority-definition-html",
+   "sha256": "651cdd63271bb949661cc01059add28a9232faa3202609c17d7f2fda6151f42c"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-covered-procurement-definition-html",
+   "title": "Guidance: Covered Procurement definition (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Plan phase",
+   "updated": "2026-04-15T12:48:16+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-covered-procurement-definition-html",
+   "sha256": "7fa63c4509e2814b71eef561096a0e2a6210f408a0f693adb97606d884a2d660"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-covered-procurement-objectives-html",
+   "title": "Guidance: Covered Procurement Objectives (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Plan phase",
+   "updated": "2026-04-15T12:48:16+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-covered-procurement-objectives-html",
+   "sha256": "6f391bffb4922e317db68311d192a842284011d6bed0b8dc051a24e9aa71a503"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-defence-and-security-contracts-html",
+   "title": "Guidance - Defence and Security Contracts (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Plan phase",
+   "updated": "2026-04-15T12:48:16+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-defence-and-security-contracts-html",
+   "sha256": "1f26975c6814462f41cb5e8a917c5e283d30adbe2441a294a365090222ef147b"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-devolved-contracting-authorities-html",
+   "title": "Guidance: Devolved Contracting Authorities (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Plan phase",
+   "updated": "2026-04-15T12:48:16+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-devolved-contracting-authorities-html",
+   "sha256": "98cfc28c76866cb9af06bc09a3e6150d8a182bdfd3a788173a6332472ade5fdb"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-exempted-contracts-html--2",
+   "title": "Guidance: Exempted Contracts (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Plan phase",
+   "updated": "2026-04-15T12:48:16+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-exempted-contracts-html--2",
+   "sha256": "995d914152a0ab2166aba9c141c1271ba5a3f5ebdb11ee7a256edc9af7081a3e"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-light-touch-contracts-html",
+   "title": "Guidance - Light Touch Contracts (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Plan phase",
+   "updated": "2026-04-15T12:48:16+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-light-touch-contracts-html",
+   "sha256": "1222a2432c0a73fc0f266f22b9af530b30aa398061dc17db0b4f59ead3565ed5"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-national-procurement-policy-statement-html",
+   "title": "Guidance: National Procurement Policy Statement (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Plan phase",
+   "updated": "2026-04-15T12:48:16+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-national-procurement-policy-statement-html",
+   "sha256": "f28921dd09871d3d5e40d47946c4a673505e2e4129a030d92cd71e079adc489a"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-pipeline-notice-html",
+   "title": "Guidance: Pipeline Notice (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Plan phase",
+   "updated": "2026-04-15T12:48:16+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-pipeline-notice-html",
+   "sha256": "237a8a98f2b485c5f777c4edb749d7888c3e1ea05b2a31bba0112b3fec8d0f75"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-reserving-contracts-for-supported-employment-providers-html",
+   "title": "Guidance - Reserving Contracts for Supported Employment Providers (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Plan phase",
+   "updated": "2026-04-15T12:48:16+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-reserving-contracts-for-supported-employment-providers-html",
+   "sha256": "3ef2e29c5932870d962e320ba5bc3d4306340244006dcf9e79bf2b3a23f05169"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-transitional-and-saving-arrangements-html",
+   "title": "Guidance: transitional and saving arrangements (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Plan phase",
+   "updated": "2026-04-15T12:48:16+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-transitional-and-saving-arrangements-html",
+   "sha256": "e156e1c1e3cfa63df9a99fcda97e9dd58a80c3de23a06cf0f1ed92cb39ea9fd1"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-utilities-contracts-html",
+   "title": "Guidance - Utilities Contracts (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Plan phase",
+   "updated": "2026-04-15T12:48:16+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-plan-phase/guidance-utilities-contracts-html",
+   "sha256": "15ecc05570e09d249c6006eba168c5ea4a06f14be67e007ce03158a7794d6d42"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-procure-phase/assessing-competitive-tenders-html",
+   "title": "Guidance: Assessing Competitive Tenders (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Procure phase",
+   "updated": "2026-08-17T15:52:00+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-procure-phase/assessing-competitive-tenders-html",
+   "sha256": "3b41f3da3b59db88ea19db1105f2de08de33191f680d29a1c37fa53ee884ef6b"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-assessment-summaries-html",
+   "title": "Guidance: Assessment Summaries (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Procure phase",
+   "updated": "2026-08-17T15:52:00+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-assessment-summaries-html",
+   "sha256": "8b4c91aa92e28461316e78c029ba288340a2431f0b900411dd491380c6bac4c4"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-central-digital-platform-and-publication-of-information-html",
+   "title": "Guidance: Central Digital Platform and Publication of Information (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Procure phase",
+   "updated": "2026-08-17T15:52:00+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-central-digital-platform-and-publication-of-information-html",
+   "sha256": "7dd59113c503800d205cd43e7f7ccc33bb798c8f03f4592a3e1a5bb54e47ec7c"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-conditions-of-participation-html",
+   "title": "Guidance: Conditions of Participation (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Procure phase",
+   "updated": "2026-08-17T15:52:00+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-conditions-of-participation-html",
+   "sha256": "a73bc71857a9f689c66c2c360200bcfd0975de2706a30220d7f863de525be289"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-contract-award-notices-and-standstill-html",
+   "title": "Guidance: Contract Award Notices and Standstill (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Procure phase",
+   "updated": "2026-08-17T15:52:00+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-contract-award-notices-and-standstill-html",
+   "sha256": "9b9184a514b0f16e10a2bb2b0402c0371172d91d60110e5f76ae1e995f6f101f"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-contract-details-notices-html",
+   "title": "Guidance: Contract Details Notices (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Procure phase",
+   "updated": "2026-08-17T15:52:00+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-contract-details-notices-html",
+   "sha256": "a5b2431ef2944d6f4446b3facc5cd737d96a11ce580920d784c1d41b0da074a7"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-debarment-html",
+   "title": "Guidance: Debarment (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Procure phase",
+   "updated": "2026-08-17T15:52:00+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-debarment-html",
+   "sha256": "3931b71395255ae715739a0e97f195006c8726745f88769ba8391a1e5ec89de5"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-electronic-communications-html",
+   "title": "Guidance: Electronic Communications (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Procure phase",
+   "updated": "2026-08-17T15:52:00+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-electronic-communications-html",
+   "sha256": "10e3afc2dcbd6575c8f43c91fe5accaab081098db207d189f279a06e7124418a"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-exclusions-annex-2-national-security-grounds-html",
+   "title": "Guidance: Exclusions Annex 2: National Security Grounds (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Procure phase",
+   "updated": "2026-08-17T15:52:00+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-exclusions-annex-2-national-security-grounds-html",
+   "sha256": "286e663ab2e262aa69c29e4c93ba2823a1e8d60c9a6660ad0cdd77cf560ba80e"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-exclusions-html",
+   "title": "Guidance: Exclusions (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Procure phase",
+   "updated": "2026-08-17T15:52:00+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-exclusions-html",
+   "sha256": "733699e1842cb5bbcd8a9aa6bf33c7bf44d26755922cdbf6f5bf188ea0ac1101"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-procurement-oversight-html",
+   "title": "Guidance: Procurement Oversight (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Procure phase",
+   "updated": "2026-08-17T15:52:00+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-procurement-oversight-html",
+   "sha256": "27c5928b03144edaeb94526d273dd7283c9bf5dae237f97d3adb7b8c28edd594"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-procurement-termination-notices-html",
+   "title": "Guidance: Procurement Termination Notices (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Procure phase",
+   "updated": "2026-08-17T15:52:00+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-procurement-termination-notices-html",
+   "sha256": "90cb987f17c99f291a4e29f75e1604f84de05ba04fce0d5c3369d56f8668238f"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-remedies-html",
+   "title": "Guidance: Remedies (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Procure phase",
+   "updated": "2026-08-17T15:52:00+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-procure-phase/guidance-remedies-html",
+   "sha256": "0bc9e649f62a5a123a180cdbd115b3ccf015362716702c66ae7215c1e1279f93"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-procure-phase/modifying-a-competitive-procurement-html",
+   "title": "Guidance: Modifying a Competitive Procurement (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Procure phase",
+   "updated": "2026-08-17T15:52:00+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-procure-phase/modifying-a-competitive-procurement-html",
+   "sha256": "b2225376037c4fbb4145558264c17a9711752468b8922307f1bb4b9a29dff8f7"
+  },
+  {
+   "source": "guidance",
+   "id": "/government/publications/procurement-act-2023-guidance-documents-procure-phase/time-periods-html",
+   "title": "Guidance: Time Periods (HTML)",
+   "publication": "Procurement Act 2023 guidance documents - Procure phase",
+   "updated": "2026-08-17T15:52:00+01:00",
+   "url": "https://www.gov.uk/government/publications/procurement-act-2023-guidance-documents-procure-phase/time-periods-html",
+   "sha256": "07f82ec0839d67bed438fb48e1e7dfaa1a347988aa9fee6523042a5927466475"
+  },
+  {
+   "source": "notice",
+   "id": "082434-2026",
+   "title": "DCEA Scotland Migration Service",
+   "updated": "2026-09-01T08:55:59+01:00",
+   "sha256": "ac3b074635d09f1d8be66f2514f1a9c4fa8dfcf154692a8eafa6d731e9cdad96"
+  },
+  {
+   "source": "notice",
+   "id": "082469-2026",
+   "title": "W5097 Provision of Strength and Balance Service in Later Life in the Borough of Walsall",
+   "updated": "2026-09-01T09:55:08+01:00",
+   "sha256": "6ba94add91805ff8a822199a84e67b3e3e6c01c6e974ef9d2093c7e952e1560b"
+  },
+  {
+   "source": "notice",
+   "id": "082495-2026",
+   "title": "Microbiology Services Managed Service Contract",
+   "updated": "2026-09-01T10:29:03+01:00",
+   "sha256": "50e108d845bafb88d2126827ce5173ceaf5018b0286b9b566c0e4496dd312d79"
+  },
+  {
+   "source": "notice",
+   "id": "082712-2026",
+   "title": "PS/25/263 - Winter Maintenance Assistance Framework (2026-2033)",
+   "updated": "2026-09-01T14:29:06+01:00",
+   "sha256": "f3a4bf765573c4ade8355313c2161f2af96a4009379457a140446870200304a6"
+  },
+  {
+   "source": "notice",
+   "id": "082785-2026",
+   "title": "PSR Lewisham Mental Health and Emotional Wellbeing Service",
+   "updated": "2026-09-01T15:46:36+01:00",
+   "sha256": "b1ee27d17f2ac2d26d73252cf84f82452378ffd5151c9da215e0aae015408555"
+  },
+  {
+   "source": "notice",
+   "id": "082806-2026",
+   "title": "Highland Deephaven: Strategic Masterplanning & Feasibility Study",
+   "updated": "2026-09-01T16:10:30+01:00",
+   "sha256": "7b568b67f915231ecee971d103299426b9082b42b853b04da0517729f7be2112"
+  },
+  {
+   "source": "notice",
+   "id": "082808-2026",
+   "title": "Provision of Corporate Technology Platform (EcoSystem)",
+   "updated": "2026-09-01T16:11:06+01:00",
+   "sha256": "889dee5586e34084eb62679c16b9a27bdf40b96dcbc3e20a4d768a73d5c8e1cf"
+  },
+  {
+   "source": "notice",
+   "id": "083005-2026",
+   "title": "Taxi Service Tayside",
+   "updated": "2026-09-02T11:58:16+01:00",
+   "sha256": "1e9a9d581ada5b9bd21a5e2def11060c6180f5a2893f26e7ad9fee5e0f5556e2"
+  },
+  {
+   "source": "notice",
+   "id": "083138-2026",
+   "title": "The Provision of a Managing Agent for 220 High Street",
+   "updated": "2026-09-02T15:21:06+01:00",
+   "sha256": "8830a3bfd261a2ce44e9b7e8dd510156907e22d1997de12c4e5a8af639320038"
+  },
+  {
+   "source": "notice",
+   "id": "083151-2026",
+   "title": "Humber & North Yorkshire Crisis Text Support Service",
+   "updated": "2026-09-02T15:40:14+01:00",
+   "sha256": "e7629b601725facf8c47ee6f9d06fb74c5b533cb1f0f92df1da6387437bcf173"
+  },
+  {
+   "source": "notice",
+   "id": "083166-2026",
+   "title": "NHS General Dental Services Across Gwent",
+   "updated": "2026-09-02T15:52:49+01:00",
+   "sha256": "7c38629161c7bf537ef8bf125fde0f495cb2a14c7e786d0792b2d4b2109a9ac2"
+  },
+  {
+   "source": "notice",
+   "id": "083177-2026",
+   "title": "SUPPLY AND SERVICE OF FILTRATION MEDIA",
+   "updated": "2026-09-02T16:05:20+01:00",
+   "sha256": "f3c8ee79a5fd7f77bc1d53eca3e57be633f2b7e92c313f558c9d7140abaeb945"
+  },
+  {
+   "source": "notice",
+   "id": "083188-2026",
+   "title": "Provision of Suicide Bereavement Support Services",
+   "updated": "2026-09-02T16:17:48+01:00",
+   "sha256": "05866c312b2ed2f3d59494912cbd9227e1ee6bf42688e2f16df8142138c97313"
+  },
+  {
+   "source": "notice",
+   "id": "083193-2026",
+   "title": "Occupational Health, Employee Assistance Programme and Associated Services",
+   "updated": "2026-09-02T16:21:52+01:00",
+   "sha256": "1c2f1d18efd4d345924b8cb2e82b7147b8fcff525ffe0f504702c030d7027fac"
+  },
+  {
+   "source": "notice",
+   "id": "083309-2026",
+   "title": "Provision of External Audit Services",
+   "updated": "2026-09-03T09:50:16+01:00",
+   "sha256": "d85ce20daad139da170a1f06a55841bc940537d2fd4cd825215f832004723086"
+  },
+  {
+   "source": "notice",
+   "id": "083414-2026",
+   "title": "Post Diagnostic Support - Dementia Link Workers",
+   "updated": "2026-09-03T11:58:28+01:00",
+   "sha256": "a93eb6c56215e9bc2f071f107faf5c2daf29a27a152d586dfddde73cad48c3c5"
+  },
+  {
+   "source": "notice",
+   "id": "083529-2026",
+   "title": "Adult Supported Living - Procured Service Arrangement (PSA) Phase 13",
+   "updated": "2026-09-03T14:39:39+01:00",
+   "sha256": "66a0a11678f5d09e0cb33c49fd052402400cc38f712adac89b68627cedbb78d7"
+  },
+  {
+   "source": "notice",
+   "id": "083838-2026",
+   "title": "BSc (Hons) Aircraft Maintenance Engineering and Management",
+   "updated": "2026-09-04T11:39:00+01:00",
+   "sha256": "083b81629e4f1057f1707d9ace167ef825185274a643cebed4ef7879bf845307"
+  },
+  {
+   "source": "notice",
+   "id": "083912-2026",
+   "title": "Interpreting, Communication Support and Transcription Services",
+   "updated": "2026-09-04T13:42:56+01:00",
+   "sha256": "e415100342961516c7461fa4084ad440eea67cb8d816dd0971b16147bcb6e244"
+  },
+  {
+   "source": "notice",
+   "id": "083956-2026",
+   "title": "Digital Consent and Sharing Decision Making Solution",
+   "updated": "2026-09-04T14:51:10+01:00",
+   "sha256": "4ec3a2f9b272f8d4432d9e8267ba80c0e1d3425f98c34acb5c57de8995d27faa"
+  },
+  {
+   "source": "notice",
+   "id": "083977-2026",
+   "title": "Fire Safety Systems Maintenance Services",
+   "updated": "2026-09-04T15:11:05+01:00",
+   "sha256": "cccd779d3ca86bd321e9f420193e534b894d6f2a7efdb8cd721a3b0afa7f9817"
+  },
+  {
+   "source": "notice",
+   "id": "083997-2026",
+   "title": "Specialist Support Service For People Bereaved By Suicide",
+   "updated": "2026-09-04T15:18:21+01:00",
+   "sha256": "1754d3b4d93201fa981be659114c3f1b504afdc751e60986ea732c6b92d2e67b"
+  },
+  {
+   "source": "notice",
+   "id": "084016-2026",
+   "title": "ITT for Survey and Treament for Timber Preservation Framework",
+   "updated": "2026-09-04T15:37:04+01:00",
+   "sha256": "6a5bc6513e3049465a6697b80416e4c71c6a44bfcd40aa002b6f57ba69d2211c"
+  },
+  {
+   "source": "notice",
+   "id": "084021-2026",
+   "title": "ITT for Survey and Treament for Timber Preservation Framework",
+   "updated": "2026-09-04T15:47:34+01:00",
+   "sha256": "692315cf4d80deaaaecce5e695e321620fcf7b09c9c9b2fb0a2c4ad974a87f05"
+  },
+  {
+   "source": "notice",
+   "id": "084034-2026",
+   "title": "ITT for Survey and Treament for Timber Preservation Framework",
+   "updated": "2026-09-04T15:58:09+01:00",
+   "sha256": "227f6b2fc4ddca90416874f90cdc0aa7408127c4af2616e7f11b71fae64dfe98"
+  },
+  {
+   "source": "notice",
+   "id": "084048-2026",
+   "title": "ITT for Survey and Treament for Timber Preservation Framework",
+   "updated": "2026-09-04T16:06:31+01:00",
+   "sha256": "969d1b2c63a619875fc87f5d08e1770981fd399193b7752dee244b520e72721e"
+  },
+  {
+   "source": "notice",
+   "id": "084056-2026",
+   "title": "Trafalgar Housing Association - Gutter Cleaning & Roof Anchor Testing",
+   "updated": "2026-09-04T16:11:12+01:00",
+   "sha256": "aea4466498802026efcc7a6f662913a95a1ae2929f38ea621e34a359ae3dd3ed"
+  },
+  {
+   "source": "notice",
+   "id": "084183-2026",
+   "title": "ITT for Survey and Treament for Timber Preservation Framework",
+   "updated": "2026-09-07T08:56:12+01:00",
+   "sha256": "8dfb785203cf6e5dd6896803df549c827d06d3cf36cb7039744ff8462e098929"
+  },
+  {
+   "source": "notice",
+   "id": "084188-2026",
+   "title": "The Walking and Cycling Index Residents' Survey 2027",
+   "updated": "2026-09-07T09:05:53+01:00",
+   "sha256": "f50009bcec96ec0f2f65f93f0d2c3ad2e7edb5dfa331ad7c0df3c588a3955c26"
+  },
+  {
+   "source": "notice",
+   "id": "084192-2026",
+   "title": "Tender for the supply of Fitness Equipment to Inverclyde Leisure",
+   "updated": "2026-09-07T09:17:31+01:00",
+   "sha256": "299e2e7e4fa657e94cfd38e796086179e5194040f3fef2cafe187e5cf7777f43"
+  },
+  {
+   "source": "notice",
+   "id": "084194-2026",
+   "title": "Trafalgar Housing Association - Gutter Cleaning & Roof Anchor Testing",
+   "updated": "2026-09-07T09:18:41+01:00",
+   "sha256": "9c3e6652aabfcc923630e251496006343adb6f41eda051e539046f6150fdb2a3"
+  },
+  {
+   "source": "notice",
+   "id": "084457-2026",
+   "title": "Committee Livestreaming",
+   "updated": "2026-09-07T14:17:18+01:00",
+   "sha256": "dbf5d09adc5f0fe01f38b8ff8dbd77cad7edf2641f09e4b91c721e71fd0cd7d7"
+  },
+  {
+   "source": "notice",
+   "id": "084524-2026",
+   "title": "Partick Housing Association - Gutter Cleaning, Solar Cleaning & Roof Inspection Works (2026-2029)",
+   "updated": "2026-09-07T15:25:24+01:00",
+   "sha256": "5fde9ef2725b62b554e826ff90ac8cd606d4845bce13ec519667a9f12d154e06"
+  },
+  {
+   "source": "notice",
+   "id": "084557-2026",
+   "title": "University of Suffolk Dental and Student Education Service",
+   "updated": "2026-09-07T15:59:20+01:00",
+   "sha256": "2895fa660e9339e87425290a8753650ad27b28bdcffb0304049891fa5885fc29"
+  },
+  {
+   "source": "notice",
+   "id": "084712-2026",
+   "title": "Provision of Transport for Stroke and Suspected Stroke Patients",
+   "updated": "2026-09-08T09:42:53+01:00",
+   "sha256": "a8302d4a134d31585851dbcd88926410e9b7b1aa21ef6e014408b2630c9a33e5"
+  },
+  {
+   "source": "notice",
+   "id": "084788-2026",
+   "title": "UK DTE Projects (various upcoming)",
+   "updated": "2026-09-08T11:25:27+01:00",
+   "sha256": "2421721d62f6b36f8d1123a6abe62a84cb9281621c6210bb48f8a85e515a88cf"
+  },
+  {
+   "source": "notice",
+   "id": "084818-2026",
+   "title": "Healthy Lives Dynamic Purchasing Vehicle - Category 1 Round 13 - Onboarding",
+   "updated": "2026-09-08T11:55:02+01:00",
+   "sha256": "3ab510f7a8bb0cf19ec35eb9f0d5249f59025c262c978a8e432838a8faa666ba"
+  },
+  {
+   "source": "notice",
+   "id": "084820-2026",
+   "title": "Healthy Lives Dynamic Purchasing Vehicle - Category 2 Round 13 - Onboarding",
+   "updated": "2026-09-08T11:57:31+01:00",
+   "sha256": "c204db0a421ae3ca564effeec3a35b1745eb3b4843a4dbabe12c97d8b10abc9d"
+  },
+  {
+   "source": "notice",
+   "id": "084821-2026",
+   "title": "Healthy Lives Dynamic Purchasing Vehicle - Category 3 Round 13 - Onboarding",
+   "updated": "2026-09-08T11:59:04+01:00",
+   "sha256": "c9b13d4bc30a11e7cdbfffda00f83ce980d45e215b66975003128b40ced37cb9"
+  },
+  {
+   "source": "notice",
+   "id": "084826-2026",
+   "title": "Healthy Lives Dynamic Purchasing Vehicle - Category 4 Round 12 - Onboarding",
+   "updated": "2026-09-08T12:03:21+01:00",
+   "sha256": "ed68dcf3454d72db2566b42952df8b8bc9cc408c6ab89aa508e09068a5dac5fe"
+  },
+  {
+   "source": "notice",
+   "id": "084827-2026",
+   "title": "Specialised Peatland Restoration Dynamic Purchasing System (DPS)",
+   "updated": "2026-09-08T12:03:52+01:00",
+   "sha256": "c43bda0974cf7d246fa23bdc44b588bba6a9f2af567ed7e6723f5734a20fedd5"
+  },
+  {
+   "source": "notice",
+   "id": "084828-2026",
+   "title": "Invasive Vegetation Control (IVC) Dynamic Purchasing System (DPS)",
+   "updated": "2026-09-08T12:05:05+01:00",
+   "sha256": "62d851c384cb3999c32c681c2f0f9b03ae1e29615c2820343247afe2859cfadf"
+  },
+  {
+   "source": "notice",
+   "id": "084863-2026",
+   "title": "CivTech 12.1 - How can digital technologies assist people living with substance use issues (and their families/friends) to easily connect with trusted help and substance use support when services are unavailable?",
+   "updated": "2026-09-08T13:00:10+01:00",
+   "sha256": "8955275da21e02a974ca3a14eba52e18c61c5b76970e5d4999e5a8fe853e5b91"
+  },
+  {
+   "source": "notice",
+   "id": "084913-2026",
+   "title": "How can technology enable fast-growing digital public service providers to dynamically scale their service management capabilities as demand, complexity and customer expectations increase?",
+   "updated": "2026-09-08T14:00:41+01:00",
+   "sha256": "e9befed1455618f7830e8dfcb27f822a34926aa100ea72351bf28c3d0d805845"
+  },
+  {
+   "source": "notice",
+   "id": "084917-2026",
+   "title": "CivTech 12.5 - How can technology support multi agency processes for the protection of children in Scotland?",
+   "updated": "2026-09-08T14:05:12+01:00",
+   "sha256": "a4628d50049cd5b5c5958cf91426564704b9af7d5d4a6334ae4a25be4ecaf70a"
+  },
+  {
+   "source": "notice",
+   "id": "084933-2026",
+   "title": "CivTech 12 - Challenge 12.3 - How can we use technology to demonstrate the commercial value of circular economy business practices?",
+   "updated": "2026-09-08T14:19:02+01:00",
+   "sha256": "59f57100077d0af6e7f31f4e9219c74dc94d6983c206215a9c16691e81d41b30"
+  },
+  {
+   "source": "notice",
+   "id": "084956-2026",
+   "title": "CivTech 12.6 - How can technology improve living conditions and quality of life for social housing residents in Scotland?",
+   "updated": "2026-09-08T14:36:45+01:00",
+   "sha256": "b16c7e21a6de27a1f88100e52aaca9613dae086175ecede1b693494d75b5456e"
+  },
+  {
+   "source": "notice",
+   "id": "084958-2026",
+   "title": "Grangemouth Infrastructure - Property Consultancy - Site Acquisition Commercial Property Advice",
+   "updated": "2026-09-08T14:39:38+01:00",
+   "sha256": "6e0a8da8e9520c588b1451df44eb7eb7c106de76987cfd031abc1b5b668aa611"
+  },
+  {
+   "source": "notice",
+   "id": "084995-2026",
+   "title": "Civtech 12 - Challenge 12.2 - How can technology enable fast-growing digital public service providers to dynamically scale their service management capabilities as demand, complexity and customer expectations increase?",
+   "updated": "2026-09-08T15:07:18+01:00",
+   "sha256": "95c3f7128a864900a08557d2f49c06f3af48fd364621f5e6ee84e98ad44bacc8"
+  },
+  {
+   "source": "notice",
+   "id": "084996-2026",
+   "title": "CivTech 12 - Challenge 12.4 - How can technology improve both the efficiency and the patient experience in NHS transport, starting with renal services?\u200b",
+   "updated": "2026-09-08T15:07:41+01:00",
+   "sha256": "53b561c8520842da32d6014439024d6b8b4a98f29064a9b4cf6121bf1bcd3429"
+  },
+  {
+   "source": "notice",
+   "id": "085069-2026",
+   "title": "Income Maximisation, Welfare and Debt Advice Service",
+   "updated": "2026-09-08T16:14:46+01:00",
+   "sha256": "9d03147f30580ef522417c530159ac38379bb420028974979bdae7f6f4dce7fa"
+  },
+  {
+   "source": "notice",
+   "id": "085094-2026",
+   "title": "Provision of Associate Trainers",
+   "updated": "2026-09-08T16:51:27+01:00",
+   "sha256": "dc3acf423c85e314acb6c71ac993f478133071a063e44f33e4c1f9ebfc19ec23"
+  },
+  {
+   "source": "notice",
+   "id": "085159-2026",
+   "title": "Development of final EPC Wrapper for Scotland",
+   "updated": "2026-09-09T08:28:24+01:00",
+   "sha256": "46d3d7dc7df42ac0fa22967186e9047bdca835617e359086368bc76bbf4de7e3"
+  },
+  {
+   "source": "notice",
+   "id": "085257-2026",
+   "title": "Children Affected by Parental Offending - Expression of Interest",
+   "updated": "2026-09-09T10:36:50+01:00",
+   "sha256": "6610f880bb6c3e3da8a789659a1c0f15d5f90b6f0cdf9a6375db2252ef0ce94c"
+  },
+  {
+   "source": "notice",
+   "id": "085265-2026",
+   "title": "High Voltage Maintenance",
+   "updated": "2026-09-09T10:47:30+01:00",
+   "sha256": "9828ebdc0f439e4574b71a41db87599d15dbf57f2c40f8d4a179209cc3a1d4cd"
+  },
+  {
+   "source": "notice",
+   "id": "085284-2026",
+   "title": "Quality Auditing of Mechanical Services",
+   "updated": "2026-09-09T11:01:45+01:00",
+   "sha256": "187eb1aa68b79c2b66a6969c7acca6fead0fb803b20b6b7605f5ecb5690786e2"
+  },
+  {
+   "source": "notice",
+   "id": "085353-2026",
+   "title": "Early Learning and Childcare - South Lanarkshire Council Procured Service Arrangement",
+   "updated": "2026-09-09T12:29:18+01:00",
+   "sha256": "80ecddc52772d9892fd8292404cf391e9ccab00a0712936d7fc2415680003fad"
+  },
+  {
+   "source": "notice",
+   "id": "085419-2026",
+   "title": "Community Musculoskeletal Service",
+   "updated": "2026-09-09T14:11:31+01:00",
+   "sha256": "ec73968cd975f35ea9583d5586da829b5a5bf8162cf3f57ecb7bfa30bc9d452c"
+  },
+  {
+   "source": "notice",
+   "id": "085492-2026",
+   "title": "CAWT PEACEPLUS - Replacement of Virtual Recovery College Learning Management System for Mental Health Education",
+   "updated": "2026-09-09T15:46:42+01:00",
+   "sha256": "63f79738225c156db08a2b672f6427305c3fa141335a70900536badb84a4f8db"
+  },
+  {
+   "source": "notice",
+   "id": "085498-2026",
+   "title": "DCAF - Truth Project (Pilot)",
+   "updated": "2026-09-09T15:47:36+01:00",
+   "sha256": "8f212afaf8fce0a788cfb7f76b06764090d1b0f216383e0a937d45ddf4655d75"
+  },
+  {
+   "source": "notice",
+   "id": "085510-2026",
+   "title": "Service and Maintenance of Medical Baths & Lifting Equipment",
+   "updated": "2026-09-09T15:57:46+01:00",
+   "sha256": "1d2313577758591cb2e22e687ea2d33752bafc8a64b6bd484e87633e523752ab"
+  },
+  {
+   "source": "notice",
+   "id": "085512-2026",
+   "title": "Supply, Delivery & Collection of Roadstone Materials",
+   "updated": "2026-09-09T15:59:31+01:00",
+   "sha256": "06074d02da6a2f1a4fc3ed5506a236fd4bddf17180702de6f75488a8d02e250d"
+  },
+  {
+   "source": "notice",
+   "id": "085568-2026",
+   "title": "Adult Community Audiology Services",
+   "updated": "2026-09-09T17:36:47+01:00",
+   "sha256": "f6db59e179f11cbd1ddf08a444fe8690a271a7c9622d5364fce5b824576a58b0"
+  },
+  {
+   "source": "notice",
+   "id": "085639-2026",
+   "title": "Window Cleaning Services",
+   "updated": "2026-09-10T09:13:06+01:00",
+   "sha256": "4ef2be1f7846cf50e1ca3be47c84f9adf5c5d44f682f9fd9957cfacf778e0dd4"
+  },
+  {
+   "source": "notice",
+   "id": "085679-2026",
+   "title": "School, College & Centre Passenger Transport Services",
+   "updated": "2026-09-10T09:54:16+01:00",
+   "sha256": "48154a16417365cd1152c2b4426cc203b3ec6635e86692a8e12feb2d89a6e7e7"
+  },
+  {
+   "source": "notice",
+   "id": "085722-2026",
+   "title": "2026 LOT 2 REOPENING The Provision of Tutoring Services for Children with Medical Needs (CMN) & Special Educational Needs and Disability Framework",
+   "updated": "2026-09-10T10:45:04+01:00",
+   "sha256": "af7bc9288827990abf38130fd6324209aaac50337bc1fbe21177ee947a2439e8"
+  },
+  {
+   "source": "notice",
+   "id": "085808-2026",
+   "title": "UK & International Student Recruitment Media Planning & Buying for RGU",
+   "updated": "2026-09-10T11:46:48+01:00",
+   "sha256": "01035772d3b10c35f7039217d506ad6f813943a1cde016827f4cd255c4c45efa"
+  },
+  {
+   "source": "notice",
+   "id": "085852-2026",
+   "title": "CAWT PEACEPLUS Community Connections and Wellbeing project (CCWP) - Delivery of Psychosocial Activities and Community Supports (WHSCT & SHSCT Areas)",
+   "updated": "2026-09-10T12:35:22+01:00",
+   "sha256": "ac8843e1c9ab47951998ad9c4e95c4aa97c76c9bcdf0905a0de3f6dde506bf85"
+  },
+  {
+   "source": "notice",
+   "id": "085876-2026",
+   "title": "Provision of Marine Electrical and Mechanical Services",
+   "updated": "2026-09-10T13:14:11+01:00",
+   "sha256": "22f875c99cb68e9b0d171be38753ede022825e575779749d00aa0b7b13523aca"
+  },
+  {
+   "source": "notice",
+   "id": "086077-2026",
+   "title": "C002215 - Online Delivery of Bespoke Video Interaction Guidance (VIG)",
+   "updated": "2026-09-10T16:15:15+01:00",
+   "sha256": "a46e1d3ddb1c7079642f63fc848c4faa4feb9a6a23cb52ca9b8feb5b571b1d7c"
+  },
+  {
+   "source": "notice",
+   "id": "086108-2026",
+   "title": "Maryhill Housing Association - Heating Maintenance 2026 - 2031",
+   "updated": "2026-09-10T16:39:42+01:00",
+   "sha256": "3dd4f475ef8682f3e5b0fd6b251e344d1ba45483c9c12ee1a3c8bc4c31b35e8e"
+  },
+  {
+   "source": "notice",
+   "id": "086221-2026",
+   "title": "HSHA \u2013 Responsive Maintenance, Void Property Works, Roofing and Drainage",
+   "updated": "2026-09-11T09:37:37+01:00",
+   "sha256": "b3c18a61df8adc24253f67be6d8ad47a248b4928abde009a2fce99af4a1667ff"
+  },
+  {
+   "source": "notice",
+   "id": "086244-2026",
+   "title": "Term Contract for the Supply of Affinity Resins to MRC-PPU",
+   "updated": "2026-09-11T10:14:23+01:00",
+   "sha256": "067670723bc9eda68dd33169b8a82450e4ec55e2d01788de8eabc8921783157b"
+  },
+  {
+   "source": "notice",
+   "id": "086260-2026",
+   "title": "ANE Therapeutic Support Services",
+   "updated": "2026-09-11T10:32:42+01:00",
+   "sha256": "84a07cfd59b01fe02f7a55b8f06c57aeb9afa2918e402e8e71ce9b0cb0e8a66a"
+  },
+  {
+   "source": "notice",
+   "id": "086272-2026",
+   "title": "High-Throughput Experimentation (HTE) Software for Drug Discovery",
+   "updated": "2026-09-11T10:48:35+01:00",
+   "sha256": "b0b1651f48013e81e8877943f861ce5c44b288410a30b6a36126d35b57670450"
+  },
+  {
+   "source": "notice",
+   "id": "086276-2026",
+   "title": "The Supply of Classroom and Educational Furniture",
+   "updated": "2026-09-11T10:55:20+01:00",
+   "sha256": "96967fbdf37682a1803e8ea8cb6cf608175cb8d550b10209dd7f0cd2857aa028"
+  },
+  {
+   "source": "notice",
+   "id": "086290-2026",
+   "title": "Examination, Testing & Certification of Ships Gangways and Associated Lifting Accessories",
+   "updated": "2026-09-11T11:09:25+01:00",
+   "sha256": "8a26d9ddb6925c2fec8e57206fd27e0c12b5c60c7d331a578382418a40835cc5"
+  },
+  {
+   "source": "notice",
+   "id": "086294-2026",
+   "title": "The Supply of General Administrative, Storage and Conference Furniture",
+   "updated": "2026-09-11T11:12:28+01:00",
+   "sha256": "2ce26437d0cb83109efaf686573026949fd7c7abd05f48148fa1ef53e198d2e4"
+  },
+  {
+   "source": "notice",
+   "id": "086310-2026",
+   "title": "Festive Lighting for Stirling City Centre",
+   "updated": "2026-09-11T11:25:29+01:00",
+   "sha256": "0156c0a02a15096723a48a65fda716a5ba8c56146e2e678eb3c30a9733b37a0a"
+  },
+  {
+   "source": "notice",
+   "id": "086384-2026",
+   "title": "The Provision of Tier 3 Community Dermatology Service on behalf of NHS Greater Manchester Integrated Care Board",
+   "updated": "2026-09-11T12:42:14+01:00",
+   "sha256": "d27f9f0474bfb0980084fb646c0b97b4836628f6d29f631cc7b46abd47f4032c"
+  },
+  {
+   "source": "notice",
+   "id": "086461-2026",
+   "title": "Estates Professional Services Framework Agreement",
+   "updated": "2026-09-11T14:17:43+01:00",
+   "sha256": "0182e9777c3cf126ea11c15c701aa8aaf2c81759023c32b41a4d882e26e8a2ae"
+  },
+  {
+   "source": "notice",
+   "id": "086464-2026",
+   "title": "ENT Outsourcing Services",
+   "updated": "2026-09-11T14:22:10+01:00",
+   "sha256": "876b673d57b2bde3f1f496f18fe8b652a881a5e50ba081d5aee752b379e08d1c"
+  },
+  {
+   "source": "notice",
+   "id": "086528-2026",
+   "title": "Smith Quay Extension - Professional Services Contract",
+   "updated": "2026-09-11T15:07:09+01:00",
+   "sha256": "679abe8a65adaee9000295e011f55173882e86a47a270ebeeb13e760cf4ae868"
+  },
+  {
+   "source": "notice",
+   "id": "086546-2026",
+   "title": "Provision of a Recovery Service (Alcohol and Drugs)",
+   "updated": "2026-09-11T15:21:36+01:00",
+   "sha256": "1ee2a40bdaf13c1913e77f55a27990f374f220607f933619ce22bc3e6a8af36e"
+  },
+  {
+   "source": "notice",
+   "id": "086557-2026",
+   "title": "Substance Use Service for Children and Young people",
+   "updated": "2026-09-11T15:31:36+01:00",
+   "sha256": "e5c9a631d4c140b436cec8c0de857df3bfbde39da8e7967d504a6db02890a731"
+  },
+  {
+   "source": "notice",
+   "id": "086567-2026",
+   "title": "NLP Condition Survey Programme",
+   "updated": "2026-09-11T15:38:51+01:00",
+   "sha256": "862e79ffdf1041fce41b231336caee6c2a6a5f62f055a303a8692090097d62fa"
+  },
+  {
+   "source": "notice",
+   "id": "086578-2026",
+   "title": "Joinery Contractors Framework",
+   "updated": "2026-09-11T15:53:37+01:00",
+   "sha256": "8088ec05d4083f1654824ec72130a7cc0274ba5486a910d66ebed6d5ccee2051"
+  },
+  {
+   "source": "notice",
+   "id": "086589-2026",
+   "title": "Peatland ACTION FW02 Field Ecologists Framework",
+   "updated": "2026-09-11T16:04:29+01:00",
+   "sha256": "c9e917b99b19fada0ba7c668ce0cd79e5717b7dc1125e880e8cffec9af9d9203"
+  },
+  {
+   "source": "notice",
+   "id": "086712-2026",
+   "title": "Extension to DPS for Passenger Transport Services ( Excluding Local Bus Services) in the Vale of Glamorga",
+   "updated": "2026-09-14T09:58:58+01:00",
+   "sha256": "243938a873612dcc63cfbf4c633a727c29908f6c4cac65b770d984deef9c33c3"
+  },
+  {
+   "source": "notice",
+   "id": "086761-2026",
+   "title": "Environmental Surveys",
+   "updated": "2026-09-14T11:07:24+01:00",
+   "sha256": "ce01bfc637b813635fe4a30882557dc52f82919c7bc988dcb7c559b8e6a00534"
+  },
+  {
+   "source": "notice",
+   "id": "086923-2026",
+   "title": "Operation of Spaceport 1",
+   "updated": "2026-09-14T14:28:01+01:00",
+   "sha256": "c5302d3317b9e0ab608d9c5cd1bfe1aa02e2238015f33a8bf8a96e9f5ea2e8cc"
+  },
+  {
+   "source": "notice",
+   "id": "087044-2026",
+   "title": "West Yorkshire Specialist Orthodontic Services",
+   "updated": "2026-09-14T16:49:35+01:00",
+   "sha256": "cc0fa34515fb81f040e64e2fa38a6ec26503cf431ab525a398e4417074ec5432"
+  },
+  {
+   "source": "notice",
+   "id": "087147-2026",
+   "title": "EV Infrastructure Back Office",
+   "updated": "2026-09-15T10:09:23+01:00",
+   "sha256": "e0f03929ae2459bcaf30bf4814c5986428484503ad2f5ca19013ba16bd658244"
+  },
+  {
+   "source": "notice",
+   "id": "087152-2026",
+   "title": "Auditor for Audit Scotland",
+   "updated": "2026-09-15T10:14:07+01:00",
+   "sha256": "9174fbdfadb6095634be4db42a9e4e14661ad1477455f8fd5ff64c11a8753282"
+  },
+  {
+   "source": "notice",
+   "id": "087346-2026",
+   "title": "Provision of a Complete Network Infrastructure Solution for the Mountain Bike Innovation Centre (MBIC), Innerleithen",
+   "updated": "2026-09-15T14:15:46+01:00",
+   "sha256": "1739c4b8efdc2536e623cf4af60150b49e84a529614baf5a239c8f35b1e866a6"
+  },
+  {
+   "source": "notice",
+   "id": "087374-2026",
+   "title": "Social Care Agency Workers Flexible Framework Agreement",
+   "updated": "2026-09-15T14:52:37+01:00",
+   "sha256": "74112389b4b20d932dfac3a312a571ba88aca945717531f0be2160464b74e10b"
+  },
+  {
+   "source": "notice",
+   "id": "087385-2026",
+   "title": "Open Space Maintenance Contract 2026 - 2029",
+   "updated": "2026-09-15T15:00:51+01:00",
+   "sha256": "a4ef494b63bd7dfe7d2f559bf472af2c3a3a2ed77c4ba213a9e1e93a3d5d0da9"
+  },
+  {
+   "source": "notice",
+   "id": "087456-2026",
+   "title": "Framework Agreement for the Maintenance and Repair of Navigation and Communication Equipment",
+   "updated": "2026-09-15T16:13:07+01:00",
+   "sha256": "0f2537c57849ae631e3ce94b82468ff39a796b0ecceba69a58cf638fe2efb66e"
+  },
+  {
+   "source": "notice",
+   "id": "087476-2026",
+   "title": "Albert Cross Design Contest",
+   "updated": "2026-09-15T16:32:39+01:00",
+   "sha256": "6909daf2146f50c881003b2695c7533e9880614b4a54662a72037ba10cc54325"
+  },
+  {
+   "source": "notice",
+   "id": "087577-2026",
+   "title": "Supply, Delivery, Installation, Removal and Re-siting of Bus Shelters",
+   "updated": "2026-09-16T09:30:45+01:00",
+   "sha256": "6103c96be6c89c6167807d569f7723a2cfe1a1a703ce0b0815a9d9bcc75e328f"
+  },
+  {
+   "source": "notice",
+   "id": "087628-2026",
+   "title": "Integrated Hospitality Technology platform (EPOS, Digital Ordering, Kiosk & CRM Solutions)",
+   "updated": "2026-09-16T10:24:13+01:00",
+   "sha256": "765c22ff12b6a46caa442ab644614556dece692bd229d3095229dbeb23e98050"
+  },
+  {
+   "source": "notice",
+   "id": "087670-2026",
+   "title": "L26060-T-YH- Human Resources Information System (HRIS)",
+   "updated": "2026-09-16T11:23:05+01:00",
+   "sha256": "fcb1e935ee2cd7a2f1c49d9881cd8f71323c49fcfcb3730cace331374b984940"
+  },
+  {
+   "source": "notice",
+   "id": "087673-2026",
+   "title": "PURCH3013 Provision of Contract Agreement for Manufacture of Investigational Medicinal Products for a Clinical Trial",
+   "updated": "2026-09-16T11:28:18+01:00",
+   "sha256": "6c22b6ffdc707abe193cee35e5f2939078d4721147073ca934f6fb8075864c41"
+  },
+  {
+   "source": "notice",
+   "id": "087858-2026",
+   "title": "Perinatal Mental Health Community Peer Support service",
+   "updated": "2026-09-16T15:07:06+01:00",
+   "sha256": "b6295f81754fbe1b1dd992db8c857abaf8ff8830740fae6a72c9fdb5973772bb"
+  },
+  {
+   "source": "notice",
+   "id": "088096-2026",
+   "title": "Supply and Delivery of Heavy and Municipal Vehicles",
+   "updated": "2026-09-17T11:02:41+01:00",
+   "sha256": "971676cf83ea6b6a43bd4c4cbc736e154aaa4c06127459c0e4489e308677ccb8"
+  },
+  {
+   "source": "notice",
+   "id": "088176-2026",
+   "title": "FIF028 High Valleyfield Medical Practice",
+   "updated": "2026-09-17T12:50:22+01:00",
+   "sha256": "f35bb1a1d1593925a446af0b52ca731569d14b549afa60dd571449788d5e8bb2"
+  },
+  {
+   "source": "notice",
+   "id": "088186-2026",
+   "title": "FIF029 The Links Practice Burntisland",
+   "updated": "2026-09-17T12:58:35+01:00",
+   "sha256": "7c28b8fb22dbfa471c3ff970487e6d5bea2b3544884f71c731206d4387a6ae35"
+  },
+  {
+   "source": "notice",
+   "id": "088301-2026",
+   "title": "Early Learning, Childcare and Brokerage Services",
+   "updated": "2026-09-17T14:54:48+01:00",
+   "sha256": "0b63a7a4a36180072e2135739a799f3d5a318cc33305731797e44f339b8ffc09"
+  },
+  {
+   "source": "notice",
+   "id": "088376-2026",
+   "title": "Administration Support of Engagement and Participation (Supported People, Unpaid Carers and Communities)",
+   "updated": "2026-09-17T16:28:15+01:00",
+   "sha256": "416ca4cdc98bcba83c8a589c82fdba415f2dd14ec908734e5534786f62b95565"
+  },
+  {
+   "source": "notice",
+   "id": "088460-2026",
+   "title": "Traction Motor Maintenance \u2013 Class 318 and 320",
+   "updated": "2026-09-18T08:39:05+01:00",
+   "sha256": "7b6530661369b2a1952148b1e76d415c19b3ca34f2d0fc436591c83c007c2a14"
+  },
+  {
+   "source": "notice",
+   "id": "088528-2026",
+   "title": "Refit of MRV Alba na Mara",
+   "updated": "2026-09-18T10:36:30+01:00",
+   "sha256": "9557f8cfeb6eb46a2a7daf1ec2d46c947209ff375380863a373bfd2481472119"
+  },
+  {
+   "source": "notice",
+   "id": "088594-2026",
+   "title": "PROVISION OF PAYMENT PLATFORM - UNIVERSITY OF ABERDEEN",
+   "updated": "2026-09-18T11:32:21+01:00",
+   "sha256": "bb5f930a405cf62c52aeb45e4b9cc6f05e34cc705d8a452e4fef7456cebb5f69"
+  },
+  {
+   "source": "notice",
+   "id": "088668-2026",
+   "title": "Provision of Food Waste Haulage Services",
+   "updated": "2026-09-18T12:51:14+01:00",
+   "sha256": "059b748c0a992faac4e090def73dca16922bc4f43f153126abd5b8eda2006812"
+  },
+  {
+   "source": "notice",
+   "id": "088689-2026",
+   "title": "Escalator and Lift Maintenance and Repair",
+   "updated": "2026-09-18T13:26:07+01:00",
+   "sha256": "f1809a77afed96147caf929f1eb6bcce4b35d5bf0f984a6cce2aec12ec7a1a02"
+  },
+  {
+   "source": "notice",
+   "id": "088776-2026",
+   "title": "SPS-02223 Fully Managed Vending Services for SPS",
+   "updated": "2026-09-18T15:05:31+01:00",
+   "sha256": "cb5e26edf3ef1e84197bd5dfdcaa6eb84e4f5f54c5f1045d7e86705f8b256b0e"
+  },
+  {
+   "source": "notice",
+   "id": "088866-2026",
+   "title": "Reopening (1) of the Flexible Framework for Care at Home and Housing Support Services",
+   "updated": "2026-09-18T16:10:49+01:00",
+   "sha256": "7db311679df1a3b0454a74fa4db269b68269ae6cda7b02e92f98f77b3b0faaf4"
+  },
+  {
+   "source": "notice",
+   "id": "088905-2026",
+   "title": "Dargavel Burn Restoration Project - Developed & Technical Design Stages (RIBA 3 &4)",
+   "updated": "2026-09-18T17:11:38+01:00",
+   "sha256": "863c366ac06ca29649bf883a7e1a121ed0f856ef4f24bfe976fbdb674f6d5434"
+  },
+  {
+   "source": "notice",
+   "id": "088982-2026",
+   "title": "Provision of a Mental Health Recovery Service",
+   "updated": "2026-09-21T10:11:00+01:00",
+   "sha256": "546ba83061f5a6591ee47a91c3052dbf6d39e2322b3b08e01f4fcbd689535868"
+  },
+  {
+   "source": "notice",
+   "id": "088983-2026",
+   "title": "NP47926 Biologic, Biosimilar\u2019s and Methotrexate Injections",
+   "updated": "2026-09-21T10:11:59+01:00",
+   "sha256": "9870da77ee3c7a42a49fda55f2740db9e91339f1252a27cb99bfbfd549514a39"
+  },
+  {
+   "source": "notice",
+   "id": "089024-2026",
+   "title": "Recovery & Relocation Services for Vehicle and Plant Equipment",
+   "updated": "2026-09-21T11:03:59+01:00",
+   "sha256": "f7a4e00938217e4034edcc3eff492ea10de340ddfe3549285d4ba00da8d588cd"
+  },
+  {
+   "source": "notice",
+   "id": "089089-2026",
+   "title": "Supply and Delivery of Milk",
+   "updated": "2026-09-21T12:07:51+01:00",
+   "sha256": "1322a195d956e522d7ddbed4701f63bb01fccefbbdf8c225b1fb443ef367272a"
+  },
+  {
+   "source": "notice",
+   "id": "089112-2026",
+   "title": "Community Harm Reduction and Recovery Initiation Services \u2013 Core Locality Hub Services",
+   "updated": "2026-09-21T12:33:36+01:00",
+   "sha256": "6e395eac4def8dd745a601d91b7899dcd94eeef170d41024052d8d32964a164a"
+  },
+  {
+   "source": "notice",
+   "id": "089118-2026",
+   "title": "Supply and Distribution of Milk",
+   "updated": "2026-09-21T12:38:28+01:00",
+   "sha256": "0866a0cd6059f5f0fe03e764f44a0b7857325f49cd25f391d75bb751469394bf"
+  },
+  {
+   "source": "notice",
+   "id": "089252-2026",
+   "title": "SPS-02319 Prisoner Records 2 (PR2) \u2013 Technical Change",
+   "updated": "2026-09-21T14:54:57+01:00",
+   "sha256": "c2f7bd776a666c6458427160b3937323e5dc6db1fa40e7c52820727157f2052d"
+  },
+  {
+   "source": "notice",
+   "id": "089255-2026",
+   "title": "Children's Services Re-Opening of the Open Select List 2026 for all Independent Placement",
+   "updated": "2026-09-21T14:55:57+01:00",
+   "sha256": "c2fb21f25ae47b3821809c76b5d5fa77d6c2083f3921dc579c41f195aceaeaa7"
+  },
+  {
+   "source": "notice",
+   "id": "089322-2026",
+   "title": "Framework Agreement for Design, Supply & Installation of Kitchens (Lot 1) and Bathrooms (Lot 2) & Associated Works 2026 to 2030",
+   "updated": "2026-09-21T16:29:04+01:00",
+   "sha256": "6cbfc259c73cdce858ac607c7bd413b335471170f85752b2061ddaad62903314"
+  },
+  {
+   "source": "notice",
+   "id": "089323-2026",
+   "title": "Architectural Consultant Services",
+   "updated": "2026-09-21T16:29:28+01:00",
+   "sha256": "21603165fab3f61d1e4a501eaa2b537daa2d846ec31e6d7ce8aab0a5713a488d"
+  },
+  {
+   "source": "notice",
+   "id": "089342-2026",
+   "title": "Backup & Recovery Solution",
+   "updated": "2026-09-21T16:50:56+01:00",
+   "sha256": "e38f266943756abbc44f7c6e54eb7e3cebe60f99ccb5307eaf40f23ce77be326"
+  },
+  {
+   "source": "notice",
+   "id": "089429-2026",
+   "title": "CPH158 Residential Rehabilitation for Drug and Alcohol Treatment and Recovery Framework",
+   "updated": "2026-09-22T09:38:50+01:00",
+   "sha256": "66acf60f97cd9742702569066bf431927e4ca1ab2e65b317a4699c94b0804108"
+  },
+  {
+   "source": "notice",
+   "id": "089475-2026",
+   "title": "Term Contract for the Supply of Affinity Resins to MRC-PPU",
+   "updated": "2026-09-22T10:38:07+01:00",
+   "sha256": "4d4d3bba709f11ce420484c56e27d71423cd4173a881a7fb094a15b0ee804192"
+  },
+  {
+   "source": "notice",
+   "id": "089747-2026",
+   "title": "Early Supported Discharge-Out of Hospital Parental Antimicrobial Treatment (OPAT)",
+   "updated": "2026-09-22T15:24:20+01:00",
+   "sha256": "b01ef63ef5c2ce8b094f26cd75209f0fd5743632be94424312d918d9db9743a9"
+  },
+  {
+   "source": "notice",
+   "id": "089780-2026",
+   "title": "Professional Estate Management Services Framework",
+   "updated": "2026-09-22T15:52:40+01:00",
+   "sha256": "62720d5244d2747970b4593c90537ff8c73099d18695081724559c2c4b8747c3"
+  },
+  {
+   "source": "notice",
+   "id": "089948-2026",
+   "title": "Evacuated Blood Collection Systems",
+   "updated": "2026-09-23T09:54:21+01:00",
+   "sha256": "ddd2bf530e2616656151904cebde605c2cbc77beff06d372b08be71ed387858e"
+  },
+  {
+   "source": "notice",
+   "id": "090185-2026",
+   "title": "Graphic Design of Guidebooks",
+   "updated": "2026-09-23T14:34:43+01:00",
+   "sha256": "ec0f8c2ef70332352bde42a303b3bdf412a50759f8318f1cc5a553d3df9aa3ce"
+  },
+  {
+   "source": "notice",
+   "id": "090206-2026",
+   "title": "Family Support Services (Inverclyde)",
+   "updated": "2026-09-23T14:48:33+01:00",
+   "sha256": "c8cdcd841af4f255a0ccebfa5f79a81f10f92f1844265ddebb221ad4ba9cd9be"
+  },
+  {
+   "source": "notice",
+   "id": "090240-2026",
+   "title": "NHSWYICB - Leeds Adult Neurodivergence Hub - Single Point of Access",
+   "updated": "2026-09-23T15:11:47+01:00",
+   "sha256": "099dd43ab40f8114935651cab532874cc6bdcd793ce7ee042a9d494ee804fa53"
+  },
+  {
+   "source": "notice",
+   "id": "090374-2026",
+   "title": "Mechanical and Electrical Design Consultant Services",
+   "updated": "2026-09-24T08:40:21+01:00",
+   "sha256": "e4f6361420224033e3aec137b71834742143905dacaf737fa877e9acaf287647"
+  },
+  {
+   "source": "notice",
+   "id": "090657-2026",
+   "title": "COV - Young People's Drug and Alcohol Prevention, Treatment and Support Service 2027",
+   "updated": "2026-09-24T15:03:10+01:00",
+   "sha256": "11272a2d0c980053775bbe2ccd0657013e7d646d97cbce9ba23a62c77257f853"
+  },
+  {
+   "source": "notice",
+   "id": "090817-2026",
+   "title": "PKC13738 - Domestic & Commercial Removals and Storage Framework",
+   "updated": "2026-09-25T09:38:37+01:00",
+   "sha256": "dec1e847a4a6667b5c6e1053fbe3df4d6cda4f03c2b433213bb0daf466156d99"
+  },
+  {
+   "source": "notice",
+   "id": "090818-2026",
+   "title": "Abertay Housing Association - Landscape Maintenance 2027 - 2030",
+   "updated": "2026-09-25T09:39:10+01:00",
+   "sha256": "aea26550635fa8d261915f9195753094c1c1f9678386d8e42660924e5dfa13fa"
+  },
+  {
+   "source": "notice",
+   "id": "090951-2026",
+   "title": "Minor Archaeological Services Call-Off Contract",
+   "updated": "2026-09-25T12:13:18+01:00",
+   "sha256": "e8ed4473165f64dd9171c69f751c0bef9d93504cb98cd50601a90b4118601635"
+  },
+  {
+   "source": "notice",
+   "id": "090994-2026",
+   "title": "Measured Term Contract for Combined Re-Roofing, Re-Rendering, EWI and Solar PV Programme",
+   "updated": "2026-09-25T13:16:58+01:00",
+   "sha256": "c7d6d40b29e8d958162cceff6eb46fe5cf72f8fa5845f9163ad0c998e0f097d5"
+  },
+  {
+   "source": "notice",
+   "id": "091005-2026",
+   "title": "Provision of Cleaning and Associated Services",
+   "updated": "2026-09-25T13:30:25+01:00",
+   "sha256": "50a7cdc22286e38d4c2686b469356c8d25983d5df7e749a15f60d525ab65947e"
+  },
+  {
+   "source": "notice",
+   "id": "091073-2026",
+   "title": "Scaffolding Hire and Inspections",
+   "updated": "2026-09-25T14:53:39+01:00",
+   "sha256": "801dad055914510e4473797b6095e443e6f696379b773ce205dc8edf18db5340"
+  },
+  {
+   "source": "notice",
+   "id": "091075-2026",
+   "title": "Scaffolding Hire and Inspections",
+   "updated": "2026-09-25T14:53:54+01:00",
+   "sha256": "4b8cfa1665b654f41b8d41d0589776e0534b4152cf5ec25971957b4a430a9ce8"
+  },
+  {
+   "source": "notice",
+   "id": "091124-2026",
+   "title": "Private Ambulance Service (PAS) 2027",
+   "updated": "2026-09-25T15:48:00+01:00",
+   "sha256": "6ff7ae8a6611afefe1889ed6bec978acaf27c72326b031b76ec03a54394d647d"
+  },
+  {
+   "source": "notice",
+   "id": "091179-2026",
+   "title": "Breastfeeding Peer Support Service",
+   "updated": "2026-09-25T16:52:52+01:00",
+   "sha256": "a9256702e128fdcdd8a27c9313a834779c87156ce86954c9303e5d6548955279"
+  },
+  {
+   "source": "notice",
+   "id": "091183-2026",
+   "title": "Berths 9-10-11 Construction, Montrose Port",
+   "updated": "2026-09-25T17:02:34+01:00",
+   "sha256": "14ba53980469a2966713af8ebbb2cc9bce407f56028f6a5f12b84e1bbd251123"
+  },
+  {
+   "source": "notice",
+   "id": "091204-2026",
+   "title": "H&C1025 Sexual Health Services",
+   "updated": "2026-09-25T23:16:45+01:00",
+   "sha256": "95269162c520d1aeb294c555d4e3bab010c10e6efd94a2b4b5b1e1360c57bb31"
+  },
+  {
+   "source": "notice",
+   "id": "091235-2026",
+   "title": "Framework for the Supply, Installation and Decommissioning of Bus Shelters",
+   "updated": "2026-09-28T08:55:06+01:00",
+   "sha256": "c830bdbe22b848adf4a3ee02ed14e7ec82e49f52ee2d01603293049b379c7512"
+  },
+  {
+   "source": "notice",
+   "id": "091262-2026",
+   "title": "Provision of an Alcohol and Drug Prevention, Early Intervention and Recovery Support Service",
+   "updated": "2026-09-28T09:35:53+01:00",
+   "sha256": "237733fc46dacab61f2951b9f7d2a9daea366769b9f9c23b8e0813ad0ea1ec90"
+  },
+  {
+   "source": "notice",
+   "id": "091292-2026",
+   "title": "L26041-T-MS - Civils Flexible Framework",
+   "updated": "2026-09-28T10:16:16+01:00",
+   "sha256": "f3c17b9889fa25fd30ce8bd1f1f5145c54555556a2eb9b5e8136562170721ccf"
+  },
+  {
+   "source": "notice",
+   "id": "091309-2026",
+   "title": "Maintenance for Building Management System (BMS) for Maidstone Hospital 2027",
+   "updated": "2026-09-28T10:42:04+01:00",
+   "sha256": "61f6b681e6b0a604235192cd60f56a3872a716753cb8790cd6a068f25059793a"
+  },
+  {
+   "source": "notice",
+   "id": "091498-2026",
+   "title": "Provision of Temporary Emergency Accommodation (East Lothian Council)",
+   "updated": "2026-09-28T14:49:55+01:00",
+   "sha256": "3f69a4c29ba12ebc74415d760b8dd238d97b795386ea65306108cd3b4bd84cf4"
+  },
+  {
+   "source": "notice",
+   "id": "091811-2026",
+   "title": "Framework Agreement for Provision of Cleaning Services for Properties, Communal Areas and Kitchens",
+   "updated": "2026-09-29T12:11:53+01:00",
+   "sha256": "3f55289a0d70ea0755b8996358f0e0a2a0be4793c4cbf8b09e3716d9dac0154f"
+  },
+  {
+   "source": "notice",
+   "id": "091853-2026",
+   "title": "Children and Young People Safe Space Support Service",
+   "updated": "2026-09-29T12:56:21+01:00",
+   "sha256": "c79ef26d62ea4ec41e13c62aec77b9f1e8c0da2827fc6a7648634b5b9fd1dc30"
+  },
+  {
+   "source": "notice",
+   "id": "091933-2026",
+   "title": "Linstone Housing Landscape Maintenance Contract 2026-2029",
+   "updated": "2026-09-29T14:29:03+01:00",
+   "sha256": "b06d48eac13552785d5c02e64a70bf32a9646e52f823af9dba27349bcab53471"
+  },
+  {
+   "source": "notice",
+   "id": "091992-2026",
+   "title": "ICT Data Platform Consultancy Services",
+   "updated": "2026-09-29T15:31:49+01:00",
+   "sha256": "cffaebec5f894a25e81a955ff45e4b89d0ef2343005d25f158cbdaf3b85bb85f"
+  },
+  {
+   "source": "notice",
+   "id": "092047-2026",
+   "title": "SPS-02357 Temporary Maintenance Staff",
+   "updated": "2026-09-29T16:26:47+01:00",
+   "sha256": "0dc4ae41728c801b2a54368d48d19b174c9248096bd776c43a33eb08634ee902"
+  },
+  {
+   "source": "notice",
+   "id": "092182-2026",
+   "title": "Provision of a Specialist Huntington's Disease Service",
+   "updated": "2026-09-30T10:03:29+01:00",
+   "sha256": "fd0b678daf0ecde656298c3f396ec3bea1a891213e311dec5146f4340db83d50"
+  },
+  {
+   "source": "notice",
+   "id": "092247-2026",
+   "title": "Community Specialist Stop Smoking Service",
+   "updated": "2026-09-30T11:04:08+01:00",
+   "sha256": "41b82dd1850999d8b33c150efdd0be1674a445438e2b46914937b700bd76387e"
+  },
+  {
+   "source": "notice",
+   "id": "092274-2026",
+   "title": "Reopening of the Over 65 Residential Care Home Framework for Swindon",
+   "updated": "2026-09-30T11:21:39+01:00",
+   "sha256": "1764ea14d6aa75a8fa4d6c37a1eb520ed632940607f14d8297eb00350c2044fc"
+  },
+  {
+   "source": "notice",
+   "id": "092369-2026",
+   "title": "Lift and Plant Inspection",
+   "updated": "2026-09-30T13:30:31+01:00",
+   "sha256": "980db18a22d4c196b12a906dc339fedf232ab310967260d86afcac3301d9ef29"
+  },
+  {
+   "source": "notice",
+   "id": "092431-2026",
+   "title": "AA-101-26 Vending Beverage and Snack Products and Services",
+   "updated": "2026-09-30T14:38:10+01:00",
+   "sha256": "b64e2f38ef43ab8350c13a8484e022eaf480bb5bc6198222c164f43876475e2a"
+  },
+  {
+   "source": "notice",
+   "id": "092466-2026",
+   "title": "Home Group Responsive, Voids and DAPA Works \u2013 Dumfries and Galloway Scotland",
+   "updated": "2026-09-30T15:09:36+01:00",
+   "sha256": "3e4f5453b33c6a7b888ee4350d95c0fadb7054aea4712937c7887eb2f88b1cb1"
+  },
+  {
+   "source": "notice",
+   "id": "092558-2026",
+   "title": "Inspection, Maintenance & Repair of Education PE (PESSPA), Outdoor Play & Fitness-Suite Equipment",
+   "updated": "2026-09-30T16:30:32+01:00",
+   "sha256": "8911f8fc7f6e607632a28bbecf3f0b601481623d7b96d12dc2360ed429fba208"
+  },
+  {
+   "source": "notice",
+   "id": "092562-2026",
+   "title": "Visual Identity and Photography Development for the Business Enterprise Hub",
+   "updated": "2026-09-30T16:34:34+01:00",
+   "sha256": "b48df3fc4bf8ba1e1978a6f95a307408654ba728c8c5e429e4b7b44c6cd8f3c8"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-001-sme-and-vcse-procurement-spend-targets/procurement-policy-note-001-guidance-on-how-to-set-sme-spend-targets-and-annual-publication-of-results-html",
+   "title": "Procurement Policy Note 001 - Guidance on how to set SME spend targets and annual publication of results (HTML)",
+   "publication": "PPN 001: SME and VCSE procurement spend targets",
+   "updated": "2025-02-13T00:00:00+00:00",
+   "url": "https://www.gov.uk/government/publications/ppn-001-sme-and-vcse-procurement-spend-targets/procurement-policy-note-001-guidance-on-how-to-set-sme-spend-targets-and-annual-publication-of-results-html",
+   "sha256": "53ca1668a86ec5e634331b63fddf92dac7fba840712c8eac0b3d585d913edf96"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-001-sme-and-vcse-procurement-spend-targets/procurement-policy-note-001-sme-and-vcse-procurement-spend-targets-html",
+   "title": "Procurement Policy Note 001 - SME and VCSE procurement spend targets (HTML)",
+   "publication": "PPN 001: SME and VCSE procurement spend targets",
+   "updated": "2025-02-13T00:00:00+00:00",
+   "url": "https://www.gov.uk/government/publications/ppn-001-sme-and-vcse-procurement-spend-targets/procurement-policy-note-001-sme-and-vcse-procurement-spend-targets-html",
+   "sha256": "3f9784401b2359fb0abdf111e6bcab50857fac6387aaf02185f61003670b913e"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-002-taking-account-of-social-value-in-the-award-of-contracts/ppn-002-guide-to-using-the-social-value-model-html",
+   "title": "PPN 002 Guide to using the social value model (HTML)",
+   "publication": "PPN 002: Taking account of social value in the award of contracts",
+   "updated": "2025-03-05T11:42:58+00:00",
+   "url": "https://www.gov.uk/government/publications/ppn-002-taking-account-of-social-value-in-the-award-of-contracts/ppn-002-guide-to-using-the-social-value-model-html",
+   "sha256": "a2bc6d51d86496ead0b274595aa278d1f6148153d43ce1ebf4103031daf9bc1a"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-002-taking-account-of-social-value-in-the-award-of-contracts/ppn-002-taking-account-of-social-value-in-the-award-of-central-government-contracts-html",
+   "title": "PPN 002: Taking account of social value in the award of central government contracts (HTML)",
+   "publication": "PPN 002: Taking account of social value in the award of contracts",
+   "updated": "2025-03-05T11:42:58+00:00",
+   "url": "https://www.gov.uk/government/publications/ppn-002-taking-account-of-social-value-in-the-award-of-contracts/ppn-002-taking-account-of-social-value-in-the-award-of-central-government-contracts-html",
+   "sha256": "312c7885827e386092e7eb1d7695898b577d078b8855e648b56f58381c3e09ae"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-002-taking-account-of-social-value-in-the-award-of-contracts/procurement-policy-note-002-the-social-value-model-html",
+   "title": "Procurement Policy Note 002: The Social Value Model (HTML)",
+   "publication": "PPN 002: Taking account of social value in the award of contracts",
+   "updated": "2025-03-05T11:42:58+00:00",
+   "url": "https://www.gov.uk/government/publications/ppn-002-taking-account-of-social-value-in-the-award-of-contracts/procurement-policy-note-002-the-social-value-model-html",
+   "sha256": "f1daec50f06aa6aa7c856e2899d27a66ae43e9ccd7d58ad43021d1b13bc2adbe"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-003-the-public-services-social-value-act-2012/ppn-003-the-public-services-social-value-act-2012-html",
+   "title": "PPN 003: The Public Services (Social Value) Act 2012 (HTML)",
+   "publication": "PPN 003: The Public Services (Social Value) Act 2012",
+   "updated": "2025-02-17T00:00:00+00:00",
+   "url": "https://www.gov.uk/government/publications/ppn-003-the-public-services-social-value-act-2012/ppn-003-the-public-services-social-value-act-2012-html",
+   "sha256": "563c315d7e25dfe6b2b6c738de1eff4711004f3382fc07d4f9556d7bff9e0e4f"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-004-open-book-contract-management/ppn-004-open-book-contract-management-html",
+   "title": "PPN 004: Open Book Contract Management (HTML)",
+   "publication": "PPN 004: Open Book Contract Management",
+   "updated": "2025-02-17T00:00:00+00:00",
+   "url": "https://www.gov.uk/government/publications/ppn-004-open-book-contract-management/ppn-004-open-book-contract-management-html",
+   "sha256": "b65f814c78998139acbd7b889dbac45ac49eb5cd69f9175bc7f8f66da768be02"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-005-reserving-below-threshold-procurements/ppn-005-guide-to-reserving-below-threshold-html",
+   "title": "PPN 005: Guide to reserving below threshold (HTML)",
+   "publication": "PPN 005: Reserving below threshold procurements",
+   "updated": "2025-02-17T00:00:00+00:00",
+   "url": "https://www.gov.uk/government/publications/ppn-005-reserving-below-threshold-procurements/ppn-005-guide-to-reserving-below-threshold-html",
+   "sha256": "7315722b9a1807f99cb3129e2a4e7b51c42b54f417a0cb0f98106e80a06e36d4"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-005-reserving-below-threshold-procurements/ppn-005-reserving-below-threshold-html",
+   "title": "PPN 005: Reserving below threshold (HTML)",
+   "publication": "PPN 005: Reserving below threshold procurements",
+   "updated": "2025-02-17T00:00:00+00:00",
+   "url": "https://www.gov.uk/government/publications/ppn-005-reserving-below-threshold-procurements/ppn-005-reserving-below-threshold-html",
+   "sha256": "dce0ab37103c6127315c445f8afaf69907e2fdd5df8312e451d478f3ceead187"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-frequently-asked-questions",
+   "title": "PPN 006: Frequently asked questions",
+   "publication": "PPN 006: Taking account of Carbon Reduction Plans in the procurement of major government contracts",
+   "updated": "2025-07-10T15:23:52+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-frequently-asked-questions",
+   "sha256": "b145c01df19b6e03b448a2cd6e052b0bbe7dd8a42d4771fb27b6c0fb510fda1b"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-guidance-on-taling-account-of-carbon-redcution-plans-adopting-and-applying-conditions-of-participation-html",
+   "title": "PPN 006: Guidance on taking account of carbon reduction plans- adopting and applying conditions of participation (HTML)",
+   "publication": "PPN 006: Taking account of Carbon Reduction Plans in the procurement of major government contracts",
+   "updated": "2025-07-10T15:23:52+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-guidance-on-taling-account-of-carbon-redcution-plans-adopting-and-applying-conditions-of-participation-html",
+   "sha256": "a55727f23cd07f383b0bc11c1832fc244209dda98ee15facf4fb7236cadb75f9"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-taking-account-of-carbon-reduction-plans-html",
+   "title": "PPN 006: Taking account of Carbon Reduction Plans (HTML)",
+   "publication": "PPN 006: Taking account of Carbon Reduction Plans in the procurement of major government contracts",
+   "updated": "2025-07-10T15:23:52+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-taking-account-of-carbon-reduction-plans-html",
+   "sha256": "b20fc96ab694192275a6dba2ba2609b33cd1bd511cdfcbc719efa24fe6b62c3d"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-technical-standard-for-completion-of-carbon-reduction-plans-html",
+   "title": "PPN 006: Technical standard for Completion of Carbon Reduction Plans (HTML)",
+   "publication": "PPN 006: Taking account of Carbon Reduction Plans in the procurement of major government contracts",
+   "updated": "2025-07-10T15:23:52+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-006-taking-account-of-carbon-reduction-plans-in-the-procurement-of-major-government-contracts/ppn-006-technical-standard-for-completion-of-carbon-reduction-plans-html",
+   "sha256": "47780d18c3a36a60c77ca39011f45b5e4d9549f8f54945cb527492179165880e"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-007-contracts-with-russia-and-belarus/ppn-007-contracts-with-suppliers-from-russia-and-belarus-faqs-html",
+   "title": "PPN 007: Contracts with suppliers from Russia and Belarus FAQs (HTML)",
+   "publication": "PPN 007: Contracts with Russia and Belarus",
+   "updated": "2025-02-17T14:44:22+00:00",
+   "url": "https://www.gov.uk/government/publications/ppn-007-contracts-with-russia-and-belarus/ppn-007-contracts-with-suppliers-from-russia-and-belarus-faqs-html",
+   "sha256": "c940d53d63114931ff704f3f7c68163d40c195b353313564c64aa3313b451cbe"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-007-contracts-with-russia-and-belarus/ppn-007-contracts-with-suppliers-from-russia-and-belarus-html",
+   "title": "PPN 007: Contracts with suppliers from Russia and Belarus (HTML)",
+   "publication": "PPN 007: Contracts with Russia and Belarus",
+   "updated": "2025-02-17T14:44:22+00:00",
+   "url": "https://www.gov.uk/government/publications/ppn-007-contracts-with-russia-and-belarus/ppn-007-contracts-with-suppliers-from-russia-and-belarus-html",
+   "sha256": "1c980cdca4ac301d6a6530c349f1054937c269aa2ccb8d43ccf9483a710f7013"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-008-armed-forces-covenant/ppn-008-armed-forces-covenant-html",
+   "title": "PPN 008: Armed Forces Covenant (HTML)",
+   "publication": "PPN 008: Armed Forces Covenant",
+   "updated": "2025-02-17T14:44:29+00:00",
+   "url": "https://www.gov.uk/government/publications/ppn-008-armed-forces-covenant/ppn-008-armed-forces-covenant-html",
+   "sha256": "fbef2162f6b444301c282ae49b5a8b64ab428834c28063a5b8e6489b70444730"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-009-tackling-modern-slavery-in-government-supply-chains/anti-slavery-risk-tiering-tool-artt-guidance",
+   "title": "Anti-slavery Risk Tiering Tool (ARTT) Guidance",
+   "publication": "PPN 009: Tackling modern slavery in government supply chains",
+   "updated": "2025-10-16T16:00:03+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-009-tackling-modern-slavery-in-government-supply-chains/anti-slavery-risk-tiering-tool-artt-guidance",
+   "sha256": "5397a22eae6fc66069fb17272ab663a38e04074f2a8f386cb8fb92e647f3455e"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-009-tackling-modern-slavery-in-government-supply-chains/ppn-009-guidance-on-tackling-modern-slavery-in-government-supply-chains-html",
+   "title": "PPN 009: Guidance on tackling modern slavery in government supply chains (HTML)",
+   "publication": "PPN 009: Tackling modern slavery in government supply chains",
+   "updated": "2025-10-16T16:00:03+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-009-tackling-modern-slavery-in-government-supply-chains/ppn-009-guidance-on-tackling-modern-slavery-in-government-supply-chains-html",
+   "sha256": "2e367949226104d452dab7254319d1f70883a1a0bcf69fc17331afd107c755a5"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-009-tackling-modern-slavery-in-government-supply-chains/ppn-009-tackling-modern-slavery-in-government-supply-chains-html",
+   "title": "PPN 009: Tackling modern slavery in government supply chains (HTML)",
+   "publication": "PPN 009: Tackling modern slavery in government supply chains",
+   "updated": "2025-10-16T16:00:03+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-009-tackling-modern-slavery-in-government-supply-chains/ppn-009-tackling-modern-slavery-in-government-supply-chains-html",
+   "sha256": "7a8180d745824c52e1fd9dce3d302155fdf23c6a872033b8d9f66cc0fba5e65a"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-011-the-commercial-playbooks/ppn-011-the-commercial-playbooks-html",
+   "title": "PPN 011: The Commercial Playbooks (HTML)",
+   "publication": "PPN 011: The Commercial Playbooks",
+   "updated": "2025-02-17T14:44:50+00:00",
+   "url": "https://www.gov.uk/government/publications/ppn-011-the-commercial-playbooks/ppn-011-the-commercial-playbooks-html",
+   "sha256": "075a10f7003554c75c6bab602abb23a4dc63590f2f399db8787cee0e9373a80d"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-012-security-classifications-policy/ppn-012-security-classifications-policy-html",
+   "title": "PPN 012: Security Classifications Policy (HTML)",
+   "publication": "PPN 012: Security Classifications Policy",
+   "updated": "2025-02-17T14:44:56+00:00",
+   "url": "https://www.gov.uk/government/publications/ppn-012-security-classifications-policy/ppn-012-security-classifications-policy-html",
+   "sha256": "ab70ef1cc0482bbb56699b5f98e7d26eac6cf77f287d5448a41fbd2ef17c0946"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-013-using-standard-contracts/ppn-013-using-standard-contracts-html",
+   "title": "PPN 013: Using standard contracts (HTML)",
+   "publication": "PPN 013: Using standard contracts",
+   "updated": "2025-04-25T10:10:07+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-013-using-standard-contracts/ppn-013-using-standard-contracts-html",
+   "sha256": "2c328a1dfd4208b9c2d4701dd327f2db1e97cdf7eaa29e3576cdbffd28461d3d"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-014-cyber-essentials-scheme/ppn-014-cyber-essentials-scheme-html",
+   "title": "PPN 014: Cyber essentials scheme (HTML)",
+   "publication": "PPN 014: Cyber essentials scheme",
+   "updated": "2025-02-17T14:45:12+00:00",
+   "url": "https://www.gov.uk/government/publications/ppn-014-cyber-essentials-scheme/ppn-014-cyber-essentials-scheme-html",
+   "sha256": "65b311f5be952c58a72fb98f6b3b1be2c1b65159883ef0737f5526e5a5387fd8"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-016-carbon-reduction-contract-schedule/ppn-016-carbon-reduction-contract-schedule-html",
+   "title": "PPN 016: Carbon reduction contract schedule (HTML)",
+   "publication": "PPN 016: Carbon Reduction Contract Schedule",
+   "updated": "2025-02-17T00:00:00+00:00",
+   "url": "https://www.gov.uk/government/publications/ppn-016-carbon-reduction-contract-schedule/ppn-016-carbon-reduction-contract-schedule-html",
+   "sha256": "2f6c0e3444e22a4ca48257ec238361d2b496dbcf1502ed80a91b03317727e85a"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-016-carbon-reduction-contract-schedule/ppn-016-introductory-guidance-note-html",
+   "title": "PPN 016: Carbon reduction contract schedule and guidance (HTML)",
+   "publication": "PPN 016: Carbon Reduction Contract Schedule",
+   "updated": "2025-02-17T00:00:00+00:00",
+   "url": "https://www.gov.uk/government/publications/ppn-016-carbon-reduction-contract-schedule/ppn-016-introductory-guidance-note-html",
+   "sha256": "544e4920069b955637bdb7f479b755b1c7c67423f6aaf1a99cfd83a02f851731"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-017-improving-transparency-of-ai-use-in-procurement/ppn-017-improving-transparency-of-ai-use-in-procurement-html",
+   "title": "PPN 017: Improving transparency of AI use in procurement (HTML)",
+   "publication": "PPN 017: Improving transparency of AI use in procurement",
+   "updated": "2025-02-17T14:45:25+00:00",
+   "url": "https://www.gov.uk/government/publications/ppn-017-improving-transparency-of-ai-use-in-procurement/ppn-017-improving-transparency-of-ai-use-in-procurement-html",
+   "sha256": "6eab14a8c9d8b6a38c36d0a3bd31997a2c45bc1ed6c07a1e71248e93eacadb43"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-018-how-to-take-account-of-a-suppliers-approach-to-payment-in-the-procurement-of-major-contracts/ppn-018-how-to-take-account-of-a-suppliers-approach-to-payment-in-the-procurement-of-major-contracts-guidance-html",
+   "title": "PPN 018: How to take account of a supplier's approach to payment in the procurement of major contracts (Guidance) (HTML)",
+   "publication": "PPN 018: How to take account of a\r\nsupplier's approach to payment in the\r\nprocurement of major contracts",
+   "updated": "2025-04-24T12:00:11+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-018-how-to-take-account-of-a-suppliers-approach-to-payment-in-the-procurement-of-major-contracts/ppn-018-how-to-take-account-of-a-suppliers-approach-to-payment-in-the-procurement-of-major-contracts-guidance-html",
+   "sha256": "6b38bbafb8c014844716ce1836f9d266dafbbd36c6b48ee9d65fc2a45f940c2b"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-018-how-to-take-account-of-a-suppliers-approach-to-payment-in-the-procurement-of-major-contracts/ppn-018-taking-account-of-a-suppliers-approach-to-payment-in-the-procurement-of-major-contracts-html",
+   "title": "PPN 018: Taking account of a supplier\u2019s approach to payment in the procurement of major contracts (HTML)",
+   "publication": "PPN 018: How to take account of a\r\nsupplier's approach to payment in the\r\nprocurement of major contracts",
+   "updated": "2025-04-24T12:00:11+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-018-how-to-take-account-of-a-suppliers-approach-to-payment-in-the-procurement-of-major-contracts/ppn-018-taking-account-of-a-suppliers-approach-to-payment-in-the-procurement-of-major-contracts-html",
+   "sha256": "ea868345ad07a175ce91986bf8630a959b6033ff50a369b1e96906624549ae15"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-019-requirements-to-publish-on-contracts-finder/guidance-on-the-transparency-requirements-for-publishing-on-contracts-finder",
+   "title": "Guidance on the transparency requirements for publishing on Contracts Finder (HTML)",
+   "publication": "PPN 019: Requirements to publish on Contracts Finder",
+   "updated": "2025-03-31T14:49:43+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-019-requirements-to-publish-on-contracts-finder/guidance-on-the-transparency-requirements-for-publishing-on-contracts-finder",
+   "sha256": "8a7a10e414d171133b63f567d501a461b09e0baab6ad075f9fccb12d43759b95"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-019-requirements-to-publish-on-contracts-finder/update-to-legal-requirements-to-publish-procurement-information-on-contracts-finder",
+   "title": "Update to legal requirements to publish procurement information on Contracts Finder (HTML)",
+   "publication": "PPN 019: Requirements to publish on Contracts Finder",
+   "updated": "2025-03-31T14:49:43+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-019-requirements-to-publish-on-contracts-finder/update-to-legal-requirements-to-publish-procurement-information-on-contracts-finder",
+   "sha256": "ec549fe0869031889d8256f1b5cd8564b4050246f16d3563fe8b61e23afc843c"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-020-guidance-on-data-protection-legislation/ppn-020-guidance-on-data-protection-legislation-html",
+   "title": "PPN 020: Guidance on data protection legislation (HTML)",
+   "publication": "PPN 020: Guidance on data protection legislation",
+   "updated": "2025-04-24T12:00:11+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-020-guidance-on-data-protection-legislation/ppn-020-guidance-on-data-protection-legislation-html",
+   "sha256": "06da9723b1f1f8dafe440e8380541205c1428359a10af7c80c9daa9fdc402bfc"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-021-payment-spot-checks-in-public-sub-contracts/ppn-021-guidance-on-how-to-conduct-a-payment-spot-check-under-a-public-sub-contract-html",
+   "title": "PPN 021: Guidance on how to conduct a Payment Spot Check under a public sub-contract  (HTML)",
+   "publication": "PPN 021: Payment Spot Checks in Public Sub-Contracts",
+   "updated": "2025-10-08T13:13:57+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-021-payment-spot-checks-in-public-sub-contracts/ppn-021-guidance-on-how-to-conduct-a-payment-spot-check-under-a-public-sub-contract-html",
+   "sha256": "0970897953f840bb9cbf4a226565376ce4d4ee15ee073688a1faef7a91c1c38d"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-021-payment-spot-checks-in-public-sub-contracts/ppn-021-payment-spot-checks-in-public-sub-contracts-html",
+   "title": "PPN 021: Payment Spot Checks in Public Sub-Contracts (HTML)",
+   "publication": "PPN 021: Payment Spot Checks in Public Sub-Contracts",
+   "updated": "2025-10-08T13:13:57+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-021-payment-spot-checks-in-public-sub-contracts/ppn-021-payment-spot-checks-in-public-sub-contracts-html",
+   "sha256": "c78cadf5c536c552f085c066db238c33dd83ef623d4c63c617c33d180ff8ed52"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-022-procuring-steel-in-government-contracts/ppn-022-faqs-on-procuring-steel-in-government-contracts-html",
+   "title": "PPN 022: FAQs on Procuring Steel in Government Contracts (HTML)",
+   "publication": "PPN 022: Procuring steel in government contracts",
+   "updated": "2026-07-13T17:02:46+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-022-procuring-steel-in-government-contracts/ppn-022-faqs-on-procuring-steel-in-government-contracts-html",
+   "sha256": "3f0c49c9bd2e778c890171d2c2c02d893257c258f4bfcca090a9b8bdf151d807"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-022-procuring-steel-in-government-contracts/ppn-022-guidance-on-procuring-steel-in-government-contracts-html",
+   "title": "PPN 022: Guidance on Procuring Steel in Government Contracts (HTML)",
+   "publication": "PPN 022: Procuring steel in government contracts",
+   "updated": "2026-07-13T17:02:46+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-022-procuring-steel-in-government-contracts/ppn-022-guidance-on-procuring-steel-in-government-contracts-html",
+   "sha256": "6e875a4b478e28e1f7b3f402aff77b82e47eb76271e5ad638ca5029c59e948b4"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-022-procuring-steel-in-government-contracts/ppn-022-procuring-steel-in-government-contracts-html",
+   "title": "PPN 022: Procuring Steel in Government Contracts (HTML)",
+   "publication": "PPN 022: Procuring steel in government contracts",
+   "updated": "2026-07-13T17:02:46+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-022-procuring-steel-in-government-contracts/ppn-022-procuring-steel-in-government-contracts-html",
+   "sha256": "549c4cf767aa814d44d8caff4555da526d09ce6f7d32027f1483b2fe20548db5"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-022-procuring-steel-in-government-contracts/ppn-022-product-origin-data-example-contract-clause-html",
+   "title": "PPN 022: Product & Origin Data - Example Contract Clause (HTML)",
+   "publication": "PPN 022: Procuring steel in government contracts",
+   "updated": "2026-07-13T17:02:46+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-022-procuring-steel-in-government-contracts/ppn-022-product-origin-data-example-contract-clause-html",
+   "sha256": "a21a4a425fbbcfbb05b07a6b12d4276c565a2002b44b6755649e76fafeb17e9e"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-022-procuring-steel-in-government-contracts/ppn-022-uk-steels-digital-catalogue-example-contract-clause-html",
+   "title": "PPN 022: UK Steel\u2019s Digital Catalogue - Example Contract Clause (HTML)",
+   "publication": "PPN 022: Procuring steel in government contracts",
+   "updated": "2026-07-13T17:02:46+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-022-procuring-steel-in-government-contracts/ppn-022-uk-steels-digital-catalogue-example-contract-clause-html",
+   "sha256": "be11657c13449fae4dfd888a9de6d5ebf93d509aedd524afaf81f68d682dec92"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-023-2026-threshold-amounts/ppn-023-2026-threshold-amounts-html",
+   "title": "PPN 023: 2026 Threshold Amounts (HTML)",
+   "publication": "PPN 023: 2026 Threshold Amounts",
+   "updated": "2025-11-27T00:00:00+00:00",
+   "url": "https://www.gov.uk/government/publications/ppn-023-2026-threshold-amounts/ppn-023-2026-threshold-amounts-html",
+   "sha256": "1dc14990a793446c37275c516843045c67a9b830b68a0119f6f9a30522eea8ca"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-024-the-public-interest-test-and-insourcing-strategy/insourcing-and-the-public-interest-test-guidance-note-html",
+   "title": "Insourcing and the Public Interest Test - Guidance Note (HTML)",
+   "publication": "PPN 024: The Public Interest Test and Insourcing Strategy",
+   "updated": "2026-06-17T10:28:37+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-024-the-public-interest-test-and-insourcing-strategy/insourcing-and-the-public-interest-test-guidance-note-html",
+   "sha256": "93dab9ba4a37f9ccf2009cfe1067ea898d244c35420a68299542f60ddc91218b"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-024-the-public-interest-test-and-insourcing-strategy/ppn-024-the-public-interest-test-and-insourcing-strategy-html",
+   "title": "PPN 024 - The Public Interest Test and Insourcing Strategy (HTML)",
+   "publication": "PPN 024: The Public Interest Test and Insourcing Strategy",
+   "updated": "2026-06-17T10:28:37+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-024-the-public-interest-test-and-insourcing-strategy/ppn-024-the-public-interest-test-and-insourcing-strategy-html",
+   "sha256": "6ae1da9e7e0db2b8f9840ca81c05a2632cca6b58bc35a6c98e7686987dbdb237"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-025-protecting-the-uks-national-security-through-public-procurement/guidance-to-procurement-policy-note-025-protecting-the-uks-national-security-through-public-procurement-html",
+   "title": "Guidance to Procurement Policy Note 025 Protecting the UK\u2019s national security through public procurement (HTML)",
+   "publication": "PPN 025: Protecting the UK\u2019s national security through public procurement",
+   "updated": "2026-07-03T09:03:03+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-025-protecting-the-uks-national-security-through-public-procurement/guidance-to-procurement-policy-note-025-protecting-the-uks-national-security-through-public-procurement-html",
+   "sha256": "65fc1b3afb579caade4a58b27ba9e385bd151b9a6320d1dfb3e7acab9011054b"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-025-protecting-the-uks-national-security-through-public-procurement/ppn-025-protecting-the-uks-national-security-through-public-procurement-html",
+   "title": "PPN 025 - Protecting the UK\u2019s national security through public procurement (HTML)",
+   "publication": "PPN 025: Protecting the UK\u2019s national security through public procurement",
+   "updated": "2026-07-03T09:03:03+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-025-protecting-the-uks-national-security-through-public-procurement/ppn-025-protecting-the-uks-national-security-through-public-procurement-html",
+   "sha256": "ab45830cc1eeedbaac26226b1b4f258e6a97b0a5f9e06259b1272d4cbbb085e6"
+  },
+  {
+   "source": "ppn",
+   "id": "/government/publications/ppn-026-the-social-value-model/ppn-026-the-social-value-model-html",
+   "title": "PPN 026: The Social Value Model (HTML)",
+   "publication": "PPN 026: The social value model",
+   "updated": "2026-08-05T09:51:12+01:00",
+   "url": "https://www.gov.uk/government/publications/ppn-026-the-social-value-model/ppn-026-the-social-value-model-html",
+   "sha256": "e4d90d915609427d923d7d4aa1a5c150723f0995b5cb2cd0cdd8b70dc5d7123f"
+  }
+ ]
+}
