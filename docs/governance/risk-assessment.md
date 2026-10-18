@@ -48,7 +48,7 @@ Likelihood and impact are rated low, medium or high, before and after the contro
 | A.6.2.4 Verification and validation | Yes | Offline tests, live guardrail tests, four evaluation sets, the N1 check |
 | A.6.2.5 AI system deployment | Limited | Runs locally for the client; no public deployment |
 | A.6.2.6 Operation and monitoring | Yes | Audit log, Bedrock invocation log, budget alarm |
-| A.6.2.7 Technical documentation | Yes | README, decisions, walkthrough |
+| A.6.2.7 Technical documentation | Yes | README, decisions |
 | A.6.2.8 Recording of event logs | Yes | Audit log of every question and answer, masked; invocation log for 30 days |
 | A.7.2 Data for development and enhancement | Yes | The corpus is the only data; no model is trained or fine-tuned |
 | A.7.3 Acquisition of data | Yes | Public APIs, Open Government Licence; datasheet |
