@@ -15,6 +15,22 @@ What was built, and why each choice was made. The requirements (F1 to F4, N1 to 
 | API and page | FastAPI, serving one HTML page with no build step | A React app was planned; the finished page needs only four views and the current answer (build log) |
 | Infrastructure | Terraform, local state | Everything in AWS is deleted at the end (N10), so there's no shared state to keep |
 
+## Trade-offs
+
+Each row names the main alternative and what this choice gives up.
+
+| Choice | Alternative | Why this one | What it gives up |
+|---|---|---|---|
+| Nova Lite in London | Claude on Bedrock | Claude is offered here only through cross-region profiles, which can send prompts outside the UK (N2) | A stronger model. Weak answers are caught by the grounding check rather than avoided |
+| Own retrieval pipeline | Bedrock Knowledge Bases, which chunks, embeds and retrieves for you | Passages split at the documents' own headings, two layers of masking before anything is embedded, and an audit log of every outcome, all in code that is tested | More code to maintain, and re-indexing is a script rather than a sync button |
+| Postgres with pgvector, in Docker | A managed vector store such as OpenSearch Serverless | Passages, full-text index and audit log in one database, free to run, and the same image runs in CI | Not hosted: it runs on one machine, which suits the brief (public hosting is out of scope) |
+| Vector and full-text search, fused | Vector search alone | Vector search finds paraphrases; full-text search finds exact terms such as "PPN 023" | Two queries per question, and a fusion step to explain |
+| No model call below a similarity threshold | Always ask the model and rely on its "I don't know" | An out-of-scope question costs nothing and can't be answered from outside the documents (F3) | A threshold that has to be tuned. It is 0.35 until the evaluation sets it |
+| Answers withheld below the grounding bars | Show every answer with a warning | A wrong answer about procurement law can do more harm than no answer | Some correct answers may be withheld |
+| GOV.UK Content API | Scraping the pages | The same request returns the same document, with its update date | Only what the API publishes; PDF attachments are left out, as they copy the HTML |
+| One HTML page served by FastAPI | The React app the brief planned | Four views and one answer need no state library or build step | Less room to grow into a larger app |
+| Terraform with local state | A remote state bucket | Everything in AWS is deleted at the end (N10), so there is no shared state to protect | The state lives on one laptop |
+
 ## The documents
 
 Guidance and policy notes come from the GOV.UK Content API rather than scraped pages: it returns the HTML body with its update date, and the same request gives the same document. Only HTML attachments are used; the PDF and ODT attachments are copies of them. Policy notes are taken from the collection's "Procurement Act 2023 PPNs" group only, so notes for the 2015 regulations and notes marked out of date can't be retrieved (N8).
@@ -42,7 +58,7 @@ Bedrock's own invocation log is switched on and kept for 30 days in CloudWatch. 
 
 Retrieval combines vector similarity with Postgres full-text search, fused by reciprocal rank. Vector search finds paraphrases; full-text search finds exact terms such as a notice number or "PPN 023". Six passages go to the model.
 
-If even the best passage is a weak match, the question is treated as outside the documents and no model is called. The threshold was set from the evaluation runs; see [03-results.md](03-results.md).
+If even the best passage is a weak match, the question is treated as outside the documents and no model is called. The threshold is 0.35 for now. It will be set from the evaluation runs, which are waiting on Bedrock access (see the build log).
 
 The model is told to use only the passages, cite each statement, treat passage text as material rather than instructions, and reply with a fixed sentence when the passages don't answer. Its answer then goes back through the guardrail with the passages as the grounding source. An answer scoring below 0.75 for grounding or 0.5 for relevance isn't shown, and nor is an answer with no citation.
 
