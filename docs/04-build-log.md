@@ -37,3 +37,27 @@ AWS's price list shows the built-in personal data types at $0 per text unit. In 
 ### Sixty embeddings a minute
 
 The build slowed to about 25 passages a minute. Single calls were quick, so I checked the account's Bedrock quotas: Titan Text Embeddings v2 allows 60 requests a minute here, and it embeds one text per request. Eight threads were hitting the limit, and the client's growing backoff made it slower than the limit itself. A shared rate limiter now spaces embedding calls at 57 a minute, and the full index takes about 40 minutes. The guardrail's limit, 25 requests a second, was never the problem.
+
+The last stretch of the build ran at about 24 passages a minute, under half the limiter's rate, without errors. I didn't find the cause; the run finished at 2,276 passages and $0.36 for the 1,907 that weren't already cached.
+
+## Settings that live outside the code
+
+### Zero data retention
+
+Bedrock now has an account setting for whether AWS keeps prompts and responses. London was on `inherit`, which leaves it to each model. I set it to `none` and made one small call to Titan, Nova Lite, Nova Pro and both guardrails straight away. All five worked, and I took that as a pass. It wasn't: the setting hadn't taken effect. Later, every call to Titan and both Nova models failed with `ValidationException: Operation not allowed`, which is how Bedrock refuses a model that needs data kept, while the guardrails carried on working. The setting is back to `inherit`, and each model's own retention terms apply. A test of a setting that propagates needs to wait for it.
+
+The models stayed refused in every region after the setting was reverted, so the retention setting wasn't the whole story. The account's Bedrock quotas were: every on-demand model quota, 107 of them, now stood at zero in London and us-east-1, against an AWS default of 6,000 requests a minute for Titan. No increase or decrease had been requested. Only the guardrail quotas were untouched, which is why guardrails kept working. Others on AWS re:Post report the same `ValidationException: Operation not allowed` with quotas at zero; the error itself doesn't mention quotas.
+
+### The budget depends on a variable
+
+The budget's alert address is passed when Terraform runs, so it never sits in the public repository. The other side of that: running Terraform without the address would delete the budget. Every apply passes it.
+
+## The web page
+
+### From a React plan to one HTML file
+
+The brief planned a small React page. Once the design settled, the page needed no state beyond the current answer and four views, so it became one HTML file that FastAPI serves next to the API, with no build step and no npm packages to keep current. The fonts are served from the same place: loading them from Google would send every visitor's address to Google, which a tool built around data protection shouldn't do.
+
+### When Bedrock refuses
+
+With the model quotas at zero, a question failed with a bare 500 error. The API now returns 503 with a plain message, and the page says nothing was answered. A question that fails this way isn't written to the audit log: masking names needs the guardrail, and the guardrail is part of what's failing. Storing the question unmasked would break N1, so the gap is accepted and recorded here.

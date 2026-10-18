@@ -12,7 +12,7 @@ What was built, and why each choice was made. The requirements (F1 to F4, N1 to 
 | Not chosen | Claude on Bedrock | In this account it's offered only through cross-region inference profiles, which can route requests outside the UK, and it's billed through AWS Marketplace, which promotional credits may not cover |
 | Vector store | Postgres 17 with pgvector, in Docker | One database for the passages, the full-text index and the audit log. Free to run, and the same image runs in CI |
 | Guardrails | Bedrock Guardrails, two of them | One masks personal data at ingest. The other checks questions and answers: prompt attacks, two denied topics, personal data, and whether an answer is grounded in its passages |
-| API and page | FastAPI, a small React page | |
+| API and page | FastAPI, serving one HTML page with no build step | A React app was planned; the finished page needs only four views and the current answer (build log) |
 | Infrastructure | Terraform, local state | Everything in AWS is deleted at the end (N10), so there's no shared state to keep |
 
 ## The documents

@@ -63,5 +63,5 @@ Likelihood and impact are rated low, medium or high, before and after the contro
 | A.9.3 Objectives for responsible use | Client | Faster answers to rule questions; not decisions |
 | A.9.4 Intended use of the AI system | Yes | Model card |
 | A.10.2 Allocating responsibilities | Yes | AWS (infrastructure, Nova as provider of the model), the builder (system), the client (use) |
-| A.10.3 Suppliers | Yes | AWS: London region, data protection and retention terms checked; decisions document |
+| A.10.3 Suppliers | Yes | AWS: London region; zero data retention tested and refused by the models, so each model's own retention terms apply; decisions document |
 | A.10.4 Customers | Client | The client's staff are the users; no external customers |

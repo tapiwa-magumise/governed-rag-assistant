@@ -8,6 +8,7 @@ Prints counts only: the values themselves are never printed.
 import json
 import re
 import sys
+from datetime import UTC, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -65,6 +66,11 @@ def main() -> None:
     checked = {k: len(v) for k, v in c.items()}
     print(json.dumps({"contact_values_checked": checked, **report}, indent=1))
     failed = any(report[s][k] for s in report for k in ("personal_names_found", "emails_found", "phone_numbers_found"))
+    # Counts only, for the web page's results view; the values themselves are never written anywhere.
+    out = ROOT / "evals" / "results" / f"pii-{datetime.now(UTC):%Y%m%dT%H%M%S}.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps({"at": datetime.now(UTC).isoformat(timespec="seconds"), "passed": not failed,
+                               "contact_values_checked": checked, **report}, indent=1) + "\n")
     print("N1 FAIL" if failed else "N1 pass: no contact name, email or phone number found")
     sys.exit(1 if failed else 0)
 

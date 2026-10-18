@@ -81,3 +81,11 @@ def test_weak_retrieval_means_no_model_call(monkeypatch):
 def test_the_model_saying_it_cannot_answer_is_a_no_answer():
     r = answer.ask("Something odd", bedrock=FakeBedrock(draft=answer.NO_ANSWER))
     assert r.outcome == "no_answer"
+
+
+def test_excerpt_cuts_at_a_word():
+    from rag.answer import excerpt
+    text = "word " * 100
+    out = excerpt(text, limit=23)
+    assert out == "word word word word…"
+    assert excerpt("Short passage.") == "Short passage."

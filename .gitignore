@@ -5,7 +5,6 @@ __pycache__/
 data/
 .env
 .DS_Store
-node_modules/
-web/dist/
 terraform/.terraform/
 *.tfstate*
+.playwright-cli/

@@ -1,0 +1,24 @@
+{
+ "at": "2026-10-18T06:37:41+00:00",
+ "passed": true,
+ "contact_values_checked": {
+  "name": 77,
+  "role_name": 5,
+  "email": 165,
+  "phone": 107
+ },
+ "passages": {
+  "rows": 2276,
+  "personal_names_found": 0,
+  "emails_found": 0,
+  "phone_numbers_found": 0,
+  "role_names_found": 1
+ },
+ "audit_log": {
+  "rows": 0,
+  "personal_names_found": 0,
+  "emails_found": 0,
+  "phone_numbers_found": 0,
+  "role_names_found": 0
+ }
+}

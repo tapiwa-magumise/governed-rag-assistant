@@ -37,23 +37,6 @@ jobs:
       - run: terraform -chdir=terraform init -backend=false -input=false
       - run: terraform -chdir=terraform validate
 
-  web:
-    name: web page type-check and build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v7
-      # hashFiles isn't allowed in a job-level if, so each step checks; the job passes empty until web/ exists.
-      - uses: actions/setup-node@v7
-        if: hashFiles('web/package.json') != ''
-        with:
-          node-version: "24"
-          cache: npm
-          cache-dependency-path: web/package-lock.json
-      - if: hashFiles('web/package.json') != ''
-        run: npm ci --prefix web
-      - if: hashFiles('web/package.json') != ''
-        run: npm run --prefix web build
-
   evaluate:
     name: rebuild the index and run the evaluation sets
     if: github.event_name == 'workflow_dispatch' && inputs.evaluate

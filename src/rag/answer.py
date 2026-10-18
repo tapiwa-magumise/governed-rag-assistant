@@ -38,6 +38,7 @@ class Citation:
     section: str
     url: str
     updated: str
+    excerpt: str = ""                 # the start of the passage, already masked, for the page's margin
 
 
 @dataclass
@@ -163,8 +164,15 @@ def ask(question: str, channel: str = "api", bedrock: Bedrock | None = None) -> 
         guard["output"]["blocked"].append("uncited")
         return finish(Result("blocked_output", NO_ANSWER, masked_q, passages=_slim(passages)))
     citations = [Citation(n, passages[n - 1]["id"], passages[n - 1]["title"], passages[n - 1]["section"],
-                          passages[n - 1]["url"], passages[n - 1]["updated"]) for n in cited]
+                          passages[n - 1]["url"], passages[n - 1]["updated"], excerpt(passages[n - 1]["text"]))
+                 for n in cited]
     return finish(Result("answered", answer, masked_q, citations, _slim(passages), generated_by=MODEL))
+
+
+def excerpt(text: str, limit: int = 240) -> str:
+    """The start of a passage, cut at a word boundary."""
+    text = " ".join(text.split())
+    return text if len(text) <= limit else text[:limit].rsplit(" ", 1)[0] + "…"
 
 
 def pii_mask(text: str) -> str:
