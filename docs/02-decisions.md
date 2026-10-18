@@ -9,7 +9,7 @@ What was built, and why each choice was made. The requirements (F1 to F4, N1 to 
 | Answer model | Amazon Nova Lite, on demand in eu-west-2 | Runs in London itself, so prompts never leave the UK (N2). Amazon's own model, billed normally, so the account's promotional credits apply. $0.000084 per 1,000 input tokens |
 | Judge for the evaluations | Amazon Nova Pro, eu-west-2 | A stronger model to check the answers of a weaker one, and still in London |
 | Embeddings | Titan Text Embeddings v2, 1,024 dimensions, eu-west-2 | In London, and cheap enough to rebuild the whole index for a few cents |
-| Not chosen | Claude on Bedrock | In this account it's offered only through cross-region inference profiles, which can route requests outside the UK, and it's billed through AWS Marketplace, which promotional credits may not cover |
+| Not chosen | A third-party model on Bedrock | The one considered is offered in this account only through cross-region inference profiles, which can route requests outside the UK, and it's billed through AWS Marketplace, which promotional credits may not cover |
 | Vector store | Postgres 17 with pgvector, in Docker | One database for the passages, the full-text index and the audit log. Free to run, and the same image runs in CI |
 | Guardrails | Bedrock Guardrails, two of them | One masks personal data at ingest. The other checks questions and answers: prompt attacks, two denied topics, personal data, and whether an answer is grounded in its passages |
 | API and page | FastAPI, serving one HTML page with no build step | A React app was planned; the finished page needs only four views and the current answer (build log) |
@@ -21,7 +21,7 @@ Each row names the main alternative and what this choice gives up.
 
 | Choice | Alternative | Why this one | What it gives up |
 |---|---|---|---|
-| Nova Lite in London | Claude on Bedrock | Claude is offered here only through cross-region profiles, which can send prompts outside the UK (N2) | A stronger model. Weak answers are caught by the grounding check rather than avoided |
+| Nova Lite in London | A third-party model on Bedrock | The one considered is offered here only through cross-region profiles, which can send prompts outside the UK (N2) | A stronger model. Weak answers are caught by the grounding check rather than avoided |
 | Own retrieval pipeline | Bedrock Knowledge Bases, which chunks, embeds and retrieves for you | Passages split at the documents' own headings, two layers of masking before anything is embedded, and an audit log of every outcome, all in code that is tested | More code to maintain, and re-indexing is a script rather than a sync button |
 | Postgres with pgvector, in Docker | A managed vector store such as OpenSearch Serverless | Passages, full-text index and audit log in one database, free to run, and the same image runs in CI | Not hosted: it runs on one machine, which suits the brief (public hosting is out of scope) |
 | Vector and full-text search, fused | Vector search alone | Vector search finds paraphrases; full-text search finds exact terms such as "PPN 023" | Two queries per question, and a fusion step to explain |
