@@ -6,7 +6,7 @@ An assistant that answers questions about UK public procurement from 260 publish
 
 ![Architecture](docs/architecture.png)
 
-Editable source: [`docs/architecture.drawio`](docs/architecture.drawio).
+Editable source: [`docs/architecture.drawio`](docs/architecture.drawio). Portrait version for social posts: [`docs/linkedin-architecture.drawio`](docs/linkedin-architecture.drawio).
 
 | | |
 |---|---|
