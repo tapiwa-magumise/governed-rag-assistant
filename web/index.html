@@ -3,221 +3,118 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="#ecedea" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#14211a" media="(prefers-color-scheme: dark)">
 <title>Procurement assistant</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 fill=%22%230d2a1c%22/%3E%3Ctext x=%2216%22 y=%2224%22 font-family=%22Georgia,serif%22 font-size=%2222%22 text-anchor=%22middle%22 fill=%22%23f7f7f5%22%3E%C2%A7%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 fill=%22%231b1f24%22/%3E%3Ctext x=%2216%22 y=%2224%22 font-family=%22Georgia,serif%22 font-size=%2222%22 text-anchor=%22middle%22 fill=%22%23ffffff%22%3E%C2%A7%3C/text%3E%3C/svg%3E">
 <style>
-:root{
-  --bg:#f7f7f5; --surface:#ecedea; --surface-2:#e0e4df; --ink:#0d2a1c; --muted:#4d5952;
-  --tint:#d6e5db; --act:#0d2a1c; --act-ink:#f7f7f5; --stop:#8f1d1d;
-  --serif:"STIX Two Text",Georgia,serif; --sans:"IBM Plex Sans",system-ui,sans-serif;
-  --small:1rem; --body:1.125rem; --lead:1.375rem; --head:2rem;
-}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#0c1611; --surface:#14211a; --surface-2:#1c2c23; --ink:#eef0ea; --muted:#b2bcb5;
-  --tint:#24402f; --act:#eef0ea; --act-ink:#0c1611; --stop:#f0a29a;
-}}
-:root[data-theme="dark"]{
-  --bg:#0c1611; --surface:#14211a; --surface-2:#1c2c23; --ink:#eef0ea; --muted:#b2bcb5;
-  --tint:#24402f; --act:#eef0ea; --act-ink:#0c1611; --stop:#f0a29a;
-}
+:root{--ink:#1b1f24;--muted:#5a6270;--line:#d9dde3;--bg:#ffffff;--soft:#f5f6f8;--link:#1d4ed8;--bad:#b42318;--ok:#1a7f37}
+@media (prefers-color-scheme:dark){:root{--ink:#e8eaed;--muted:#a3abb7;--line:#343a42;--bg:#16191d;--soft:#1f2329;--link:#8ab4f8;--bad:#f28b82;--ok:#81c995}}
 *{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%;color-scheme:light dark}
-body{margin:0;background:var(--bg);color:var(--ink);font:400 var(--small)/1.5 var(--sans);font-variant-numeric:tabular-nums}
-button,a{touch-action:manipulation;color:inherit}
-:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
-.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
-.skip{position:absolute;left:16px;top:-60px;background:var(--act);color:var(--act-ink);padding:10px 16px;z-index:9}
-.skip:focus{top:10px}
-.shell{max-width:1240px;margin:0 auto;padding:0 32px}
-
-.bar{background:var(--surface)}
-.bar .shell{display:flex;align-items:center;gap:32px;min-height:64px;flex-wrap:wrap}
-.name{font:600 1.25rem/1 var(--serif);margin:0}
-.tabs{display:flex;gap:4px;margin-left:auto}
-.tabs button{all:unset;cursor:pointer;white-space:nowrap;font:500 var(--small) var(--sans);color:var(--muted);padding:10px 14px;transition:color .15s,background-color .15s}
-.tabs button:hover{color:var(--ink)}
-.tabs button[aria-selected="true"]{color:var(--ink);background:var(--bg)}
-.tabs button:focus-visible{outline:3px solid var(--ink);outline-offset:-3px}
-
-.view{display:none;padding:40px 0 96px}
-.view.on{display:block}
-
-/* ask: margin notes left, question and answer right */
-.page{display:grid;grid-template-columns:300px minmax(0,1fr);column-gap:48px}
-.side{grid-column:1;grid-row:1;text-align:right;padding-top:20px}
-.main{grid-column:2;grid-row:1;max-width:760px}
-.ask{background:var(--surface);padding:20px 22px 18px}
-.ask label{display:block;font-weight:500;color:var(--muted);margin-bottom:8px}
-.ask textarea{width:100%;min-height:76px;resize:vertical;border:0;padding:0;background:transparent;color:var(--ink);font:400 1.75rem/1.25 var(--serif);letter-spacing:-.01em}
-.ask textarea::placeholder{color:var(--muted)}
-.ask .foot{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:14px}
-.ask .count{color:var(--muted)}
-.go{all:unset;cursor:pointer;background:var(--act);color:var(--act-ink);font-weight:600;padding:12px 28px;transition:transform .12s,opacity .12s}
-.go:hover{transform:translateY(-1px)}
-.go:active{transform:none}
-.go[disabled]{opacity:.6;cursor:progress;transform:none}
-.go:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
-.tries{margin:0 0 24px;color:var(--muted)}
-.tries button{all:unset;cursor:pointer;display:table;margin:8px 0 0 auto;font:400 var(--body)/1.35 var(--serif);text-align:right;color:var(--ink);text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--muted);transition:text-decoration-color .15s}
-.tries button:hover{text-decoration-color:var(--ink)}
-.tries button:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
-.disclose{margin:0;max-width:62ch}
-
-.answer{display:contents}
-.made{grid-column:2;margin:36px 0 18px;color:var(--muted)}
-.note{grid-column:1;text-align:right;color:var(--muted);line-height:1.45;padding-top:4px;margin-bottom:24px;transition:color .15s;overflow-wrap:anywhere}
-.note a{color:var(--ink);font-weight:600;text-decoration:none}
-.note a:hover{text-decoration:underline;text-underline-offset:3px}
-.note .when{display:block}
-.note q{display:block;margin-top:6px;font:italic 400 var(--small)/1.45 var(--serif);quotes:"“" "”"}
-.note.hot{color:var(--ink)}
-.para{grid-column:2;max-width:62ch;margin:0 0 24px;font:400 var(--lead)/1.55 var(--serif)}
-.cite{font:600 .8125rem/1 var(--sans);vertical-align:.5em;margin-left:1px;padding:2px 5px;background:var(--tint);color:var(--ink);text-decoration:none;transition:background-color .15s,color .15s}
-.cite:hover,.cite.hot{background:var(--act);color:var(--act-ink)}
-.declined{grid-column:2;max-width:62ch;margin:0 0 24px;font:400 var(--lead)/1.5 var(--serif)}
-.declined strong{color:var(--stop);font-weight:600}
-.problem{grid-column:2;max-width:62ch;margin:36px 0 0;background:var(--surface);padding:16px 20px}
-.swap{transition:opacity .2s ease-out}
-.swap.out{opacity:.35}
-
-.checked{grid-column:2;max-width:760px;margin-top:16px;background:var(--surface);padding:20px 22px}
-.checked h2{font:600 var(--body)/1.3 var(--sans);margin:0 0 14px}
-.checked ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px 24px}
-.checked li b{display:block;font-weight:600}
-.checked li span{color:var(--muted)}
-.checked li .no{color:var(--stop)}
-
-.view h1{font:400 var(--head)/1.15 var(--serif);letter-spacing:-.015em;margin:0 0 10px}
-.lede{margin:0 0 28px;max-width:70ch;font-size:var(--body)}
-.figure{display:flex;align-items:baseline;gap:14px;margin:0 0 28px}
-.figure b{font:400 3.5rem/1 var(--serif);letter-spacing:-.02em}
-.figure span{color:var(--muted);max-width:30ch}
-table{width:100%;border-collapse:collapse}
-th{text-align:left;font-weight:600;color:var(--muted);padding:0 16px 12px}
-td{padding:14px 16px;vertical-align:top}
-tbody tr:nth-child(odd){background:var(--surface)}
-.r{text-align:right;white-space:nowrap}
-.q{font:400 var(--body)/1.45 var(--serif);overflow-wrap:anywhere}
-.mask{background:var(--tint);padding:0 4px;font-weight:500}
-.pending{color:var(--muted);font-style:italic}
-.stop{color:var(--stop);font-weight:600}
-.under{color:var(--muted);margin:16px 16px 0;max-width:70ch}
+html{color-scheme:light dark}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--link)}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line)}
+header .wrap{padding-top:18px;padding-bottom:14px}
+h1{font-size:20px;margin:0;font-weight:650}
+.note{color:var(--muted);font-size:14px;margin:0}
+nav{display:flex;gap:22px;font-size:15px;flex-wrap:wrap}
+nav a{color:var(--muted);text-decoration:none;padding-bottom:12px;border-bottom:2px solid transparent}
+nav a:hover,nav a.on{color:var(--ink);border-bottom-color:var(--ink)}
+main.wrap{padding-top:28px;padding-bottom:60px}
+label{font-weight:600;display:block;margin-bottom:6px}
+textarea{width:100%;min-height:84px;font:inherit;padding:10px 12px;border:1px solid #9aa3ae;border-radius:6px;resize:vertical;background:var(--bg);color:var(--ink)}
+.row{display:flex;gap:12px;align-items:center;margin-top:10px;flex-wrap:wrap}
+button{font:inherit;font-weight:600;background:var(--ink);color:var(--bg);border:0;border-radius:6px;padding:9px 18px;cursor:pointer}
+button[disabled]{opacity:.6;cursor:progress}
+.examples{font-size:14px;color:var(--muted)}
+.examples a{color:var(--link)}
+.disclose{font-size:14px;color:var(--muted);margin:0 0 16px;max-width:72ch}
+.answer{margin-top:30px;border-top:1px solid var(--line);padding-top:22px}
+.answer:empty{display:none}
+.answer p{margin:0 0 12px;max-width:72ch}
+.generated{font-size:13px;color:var(--muted)}
+sup a{color:var(--link);text-decoration:none;font-weight:600}
+h2{font-size:17px;margin:26px 0 10px}
+ol.sources{padding-left:22px;margin:0}
+ol.sources li{margin-bottom:10px}
+.src-meta{display:block;color:var(--muted);font-size:14px}
+details{margin-top:22px;border:1px solid var(--line);border-radius:6px}
+summary{cursor:pointer;padding:10px 14px;font-weight:600}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:8px 12px;border-top:1px solid var(--line);vertical-align:top}
+th{font-weight:600;color:var(--muted)}
+.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.ok{color:var(--ok);font-weight:600}.bad{color:var(--bad);font-weight:600}
+.muted{color:var(--muted)}
+.declined{background:var(--soft);border-radius:6px;padding:14px 16px;margin-top:14px;max-width:72ch}
+.section{margin-top:56px;padding-top:26px;border-top:1px solid var(--line)}
+.section h3{font-size:18px;margin:0 0 4px}
+.lede{color:var(--muted);margin:0 0 16px;max-width:72ch}
 .tablewrap{overflow-x:auto}
-
-.docs{display:grid;grid-template-columns:200px minmax(0,1fr);gap:32px}
-.src{display:flex;flex-direction:column;gap:4px}
-.src button{all:unset;cursor:pointer;padding:12px 16px;background:var(--surface);transition:background-color .15s}
-.src button b{display:block;font-weight:600}
-.src button span{color:var(--muted)}
-.src button:hover{background:var(--surface-2)}
-.src button[aria-selected="true"]{background:var(--act);color:var(--act-ink)}
-.src button[aria-selected="true"] span{color:var(--act-ink)}
-.src button:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
-.list .item{display:grid;grid-template-columns:170px minmax(0,1fr);gap:20px;padding:14px 18px}
-.list .item:nth-child(odd){background:var(--surface)}
-.list .t{font:400 var(--body)/1.35 var(--serif);text-decoration:none}
-.list a.t:hover{text-decoration:underline;text-underline-offset:3px}
-.list .more{color:var(--muted);padding:14px 18px}
-.foot-note{color:var(--muted);margin-top:20px;max-width:70ch}
-
-@media (max-width:900px){
-  .shell{padding:0 16px}
-  .bar .shell{gap:2px;padding-top:12px;padding-bottom:4px}
-  .tabs{margin-left:-14px;flex-wrap:wrap}
-  .page{grid-template-columns:minmax(0,1fr)}
-  .main,.made,.para,.declined,.checked,.problem{grid-column:1}
-  .main{grid-row:1}
-  .side{grid-row:2;text-align:left;padding-top:16px}
-  .tries button{margin:6px 0 0;text-align:left}
-  .note{grid-column:1;text-align:left;margin-bottom:8px}
-  .ask textarea{font-size:1.375rem}
-  .para,.declined{font-size:1.1875rem}
-  .checked ol{grid-template-columns:1fr 1fr}
-  .docs{grid-template-columns:1fr}
-  .src{flex-direction:row}
-  .src button{flex:1}
-  .list .item{grid-template-columns:1fr;gap:2px}
-  thead{display:none}
-  table,tbody,tr,td{display:block}
-  tr{padding:12px 14px}
-  td{padding:2px 0}
-  td.r{text-align:left}
-}
-@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.mask{background:var(--soft);border-radius:3px;padding:0 3px}
+.tabs{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+.tabs button{background:var(--soft);color:var(--ink);font-weight:500}
+.tabs button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+@media (max-width:640px){nav{gap:14px}}
 </style>
 </head>
 <body>
-<a class="skip" href="#q">Skip to the question</a>
-<header class="bar">
-  <div class="shell">
-    <p class="name">Procurement assistant</p>
-    <nav class="tabs" role="tablist" aria-label="Views">
-      <button role="tab" id="t-ask" aria-controls="ask" aria-selected="true" data-v="ask">Ask</button>
-      <button role="tab" id="t-results" aria-controls="results" aria-selected="false" data-v="results">How well it works</button>
-      <button role="tab" id="t-log" aria-controls="log" aria-selected="false" data-v="log">Audit log</button>
-      <button role="tab" id="t-docs" aria-controls="docs" aria-selected="false" data-v="docs">Documents</button>
-    </nav>
+<header>
+  <div class="wrap">
+    <h1>Procurement assistant</h1>
+    <p class="note">Answers from UK government guidance on the Procurement Act 2023, current policy notes and a month of tender notices.</p>
   </div>
+  <div class="wrap"><nav><a class="on" href="#ask">Ask</a><a href="#eval">How well it works</a><a href="#log">Audit log</a><a href="#docs">The documents</a></nav></div>
 </header>
 
-<main class="shell">
-  <section class="view on" id="ask" role="tabpanel" aria-labelledby="t-ask">
-    <div class="page">
-      <aside class="side">
-        <p class="tries">Try asking about
-          <button type="button" data-q="How long is the standstill period after a contract award notice?">the standstill period</button>
-          <button type="button" data-q="What is the threshold for a utilities works contract in 2026?">the 2026 utilities threshold</button>
-          <button type="button" data-q="How can we agree prices with the other bidders?">agreeing prices with rivals</button>
-        </p>
-        <p class="disclose">This is an AI assistant. Answers are written by a language model from the sources shown beside them, and only from those. Check the source before relying on an answer; it isn’t legal advice.</p>
-      </aside>
-      <div class="main">
-        <h1 class="sr">Ask a question</h1>
-        <form class="ask" id="form">
-          <label for="q">Ask about the Procurement Act rules or a tender notice</label>
-          <textarea id="q" name="question" rows="2" minlength="3" maxlength="1000" required autocomplete="off" placeholder="For example, when does a contract need a conflicts assessment?"></textarea>
-          <div class="foot"><span class="count" id="status" aria-live="polite"></span><button class="go" id="go" type="submit">Ask</button></div>
-        </form>
+<main class="wrap">
+  <section id="ask">
+    <p class="disclose">This is an AI assistant. Answers are generated by a language model from the documents listed below each answer. Check the source before relying on an answer; it isn’t legal advice.</p>
+    <form id="form">
+      <label for="q">Your question</label>
+      <textarea id="q" name="question" minlength="3" maxlength="1000" required autocomplete="off">How long is the standstill period after a contract award notice?</textarea>
+      <div class="row">
+        <button id="go" type="submit">Ask</button>
+        <span class="examples">Try: <a href="#" data-q="What is the threshold for a utilities works contract in 2026?">What are the 2026 thresholds?</a> · <a href="#" data-q="When is a conflicts assessment needed?">When is a conflicts assessment needed?</a> · <a href="#" data-q="How can we agree prices with the other bidders?">How can we agree prices with rivals?</a></span>
+        <span class="examples" id="status" aria-live="polite"></span>
       </div>
-      <div class="answer swap" id="answer" aria-live="polite"></div>
-    </div>
+    </form>
+    <div class="answer" id="answer" aria-live="polite"></div>
   </section>
 
-  <section class="view" id="results" role="tabpanel" aria-labelledby="t-results">
-    <h1>How well it works</h1>
-    <p class="lede">Each row is a requirement from the brief, measured by the latest evaluation run and the latest personal data check.</p>
+  <section class="section" id="eval">
+    <h3>How well it works</h3>
+    <p class="lede">The latest evaluation run and personal data check, against the requirements in the brief.</p>
     <div class="tablewrap"><table>
-      <thead><tr><th>Requirement</th><th>Target</th><th class="r">Result</th><th>Status</th></tr></thead>
-      <tbody id="results-body"><tr><td colspan="4" class="pending">Loading…</td></tr></tbody>
-    </table></div>
-    <p class="under" id="results-note"></p>
-  </section>
-
-  <section class="view" id="log" role="tabpanel" aria-labelledby="t-log">
-    <h1>Audit log</h1>
-    <p class="lede">The latest questions and answers as stored. Names, email addresses and phone numbers are masked before anything is written, including in questions that are blocked.</p>
-    <div class="tablewrap"><table>
-      <thead><tr><th>When</th><th>Question, as stored</th><th>Outcome</th><th class="r">Passages</th><th class="r">Cost</th></tr></thead>
-      <tbody id="log-body"><tr><td colspan="5" class="pending">Loading…</td></tr></tbody>
+      <thead><tr><th>Requirement</th><th>Target</th><th>Result</th></tr></thead>
+      <tbody id="eval-body"><tr><td colspan="3" class="muted">Loading…</td></tr></tbody>
     </table></div>
   </section>
 
-  <section class="view" id="docs" role="tabpanel" aria-labelledby="t-docs">
-    <h1>Documents</h1>
-    <div class="figure"><b id="passages">…</b><span id="corpus-line">passages, fixed by a manifest of dates and checksums</span></div>
-    <div class="docs">
-      <div class="src" role="tablist" aria-label="Source">
-        <button role="tab" aria-selected="true" data-src="guidance"><b>Guidance</b><span data-count="guidance">…</span></button>
-        <button role="tab" aria-selected="false" data-src="ppn"><b>Policy notes</b><span data-count="ppn">…</span></button>
-        <button role="tab" aria-selected="false" data-src="notice"><b>Tender notices</b><span data-count="notice">…</span></button>
-      </div>
-      <div class="list" id="list" role="tabpanel"></div>
+  <section class="section" id="log">
+    <h3>Audit log</h3>
+    <p class="lede">The latest questions, as stored. Personal data is masked before anything is written.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>When</th><th>Question</th><th>Outcome</th><th class="num">Passages</th><th class="num">Cost</th></tr></thead>
+      <tbody id="log-body"><tr><td colspan="5" class="muted">Loading…</td></tr></tbody>
+    </table></div>
+  </section>
+
+  <section class="section" id="docs">
+    <h3>The documents</h3>
+    <p class="lede">What it can answer from, and what was left out. Rebuilt to a known date from a committed manifest.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Source</th><th class="num">Documents</th><th>Up to date as of</th></tr></thead>
+      <tbody id="docs-body"><tr><td colspan="3" class="muted">Loading…</td></tr></tbody>
+    </table></div>
+    <h2>Newest documents</h2>
+    <div class="tabs" id="src-tabs">
+      <button type="button" data-src="guidance" aria-pressed="true">Guidance</button>
+      <button type="button" data-src="ppn" aria-pressed="false">Policy notes</button>
+      <button type="button" data-src="notice" aria-pressed="false">Tender notices</button>
     </div>
-    <p class="foot-note">Contains public sector information licensed under the Open Government Licence v3.0. Contact details in tender notices are left out, because the licence doesn’t cover personal data.</p>
+    <div class="tablewrap"><table><tbody id="list"></tbody></table></div>
+    <p class="lede" style="margin-top:16px">Left out on purpose: policy notes for the 2015 regulations, superseded notes, and the contact details in every notice. Contains public sector information licensed under the Open Government Licence v3.0.</p>
   </section>
 </main>
 
@@ -227,172 +124,121 @@ const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;
 const day = iso => iso ? new Intl.DateTimeFormat('en-GB', {day:'numeric', month:'long', year:'numeric'}).format(new Date(iso)) : '';
 const when = iso => new Intl.DateTimeFormat('en-GB', {day:'numeric', month:'short', hour:'2-digit', minute:'2-digit'}).format(new Date(iso));
 const pct = x => new Intl.NumberFormat('en-GB', {style:'percent', maximumFractionDigits:0}).format(x);
-const usd = x => '$' + new Intl.NumberFormat('en-GB', {minimumFractionDigits:4, maximumFractionDigits:4}).format(x);
-const title = t => String(t).replace(/\s*\(HTML\)\s*$/, '').replace(/^Guidance\s*[:-]\s*/, '');
+const usd = x => '$' + Number(x).toFixed(4);
+const title = t => String(t).replace(/\s*\(HTML\)\s*$/, '');
 const masks = s => esc(s).replace(/\{(NAME|EMAIL|PHONE|ADDRESS)\}/g, '<span class="mask">{$1}</span>');
-
 const REASON = r => r.startsWith('topic:') ? 'an off-limits topic (' + r.slice(6).toLowerCase() + ')'
-  : r === 'content:PROMPT_ATTACK' ? 'a prompt attack'
-  : r.startsWith('content:') ? 'harmful content'
-  : r.startsWith('grounding:') ? 'not supported by the passages (' + r.slice(10) + ')'
-  : r.startsWith('relevance:') ? 'doesn’t answer the question (' + r.slice(10) + ')'
+  : r === 'content:PROMPT_ATTACK' ? 'a prompt attack' : r.startsWith('content:') ? 'harmful content'
+  : r.startsWith('grounding:') ? 'not supported by the passages' : r.startsWith('relevance:') ? 'doesn’t answer the question'
   : r === 'uncited' ? 'no citation' : r.startsWith('pii:') ? 'personal data' : r;
-const OUTCOME = {answered:'Answered', no_answer:'No answer', blocked_input:'Blocked', blocked_output:'Withheld', error:'Error'};
+const OUTCOME = {answered:'Answered', no_answer:'No answer', blocked_input:'Declined', blocked_output:'Withheld', error:'Error'};
 
 /* ask */
 const box = $('#answer'), q = $('#q'), go = $('#go'), status = $('#status');
-function paragraphs(r){
-  const byN = Object.fromEntries(r.citations.map(c => [c.n, c]));
-  const seen = new Set();
-  let h = '';
-  for (const para of r.answer.split(/\n\s*\n/).filter(p => p.trim())){
-    const notes = [];
-    for (const m of para.matchAll(/\[(\d+)\]/g)){
-      const n = +m[1];
-      if (byN[n] && !seen.has(n)){ seen.add(n); notes.push(byN[n]); }
-    }
-    for (const c of notes){
-      h += '<aside class="note" id="n' + c.n + '" data-n="' + c.n + '"><a href="' + esc(c.url) + '" rel="noopener">' + c.n + '. ' + esc(title(c.title)) + '</a>' +
-           '<span class="when">' + esc(c.section) + '. Updated ' + day(c.updated) + '</span>' + (c.excerpt ? '<q>' + esc(c.excerpt) + '</q>' : '') + '</aside>';
-    }
-    const body = esc(para.trim()).replace(/\n/g, '<br>').replace(/\[(\d+)\]/g, (m, n) => byN[n] ? '<a class="cite" href="#n' + n + '" data-n="' + n + '">' + n + '</a>' : '');
-    h += '<p class="para">' + body + '</p>';
-  }
-  return h;
-}
 function checks(r){
   const g = r.guardrail || {}, inp = g.input || {}, out = g.output || {}, best = (g.retrieval || {}).best_similarity;
-  const grounding = (out.grounding || {}).grounding, relevance = (out.grounding || {}).relevance;
-  const screened = inp.blocked && inp.blocked.length ? '<span class="no">Stopped: ' + inp.blocked.map(REASON).join(', ') + '</span>'
-    : inp.masked && inp.masked.length ? 'Passed; masked ' + inp.masked.map(t => t.toLowerCase()).join(', ') : 'Passed, nothing masked';
-  const score = (x, bar) => x == null ? 'Not checked' : (x >= bar ? '' : '<span class="no">') + x.toFixed(2) + ', needs ' + bar + (x >= bar ? '' : '</span>');
-  const items = [
-    ['Question screened', screened],
-    ['Passages found', best == null ? 'None searched' : r.passages.length + ' used, closest match ' + best.toFixed(2) + (best < 0.35 ? ' <span class="no">(needs 0.35)</span>' : '')],
-    ['Answer written', r.generated_by ? 'By ' + (r.generated_by.includes('nova-lite') ? 'Amazon Nova Lite' : esc(r.generated_by)) + ', from those passages only' : 'No model answer'],
-    ['Supported by the passages', score(grounding, 0.75)],
-    ['Answers the question', score(relevance, 0.5)],
-    ['Logged', (r.log_id ? 'Entry ' + r.log_id + ', ' : '') + usd(r.cost_usd) + ', ' + (r.latency_ms / 1000).toFixed(1) + ' s'],
+  const gs = out.grounding || {};
+  const score = (x, bar) => x == null ? '<td class="muted">Not checked</td>' : '<td class="' + (x >= bar ? 'ok' : 'bad') + '">' + x.toFixed(2) + ', ' + (x >= bar ? 'above' : 'below') + ' the ' + bar + ' bar</td>';
+  const rows = [
+    ['Question screened (prompt attacks, off-limits topics, personal data)', inp.blocked && inp.blocked.length
+      ? '<td class="bad">Stopped: ' + inp.blocked.map(REASON).join(', ') + '</td>'
+      : '<td class="ok">Passed, ' + (inp.masked && inp.masked.length ? 'masked ' + inp.masked.map(t => t.toLowerCase()).join(', ') : 'nothing masked') + '</td>'],
+    ['Closest passage found', best == null ? '<td class="muted">None searched</td>' : '<td>' + best.toFixed(2) + ' similarity, ' + r.passages.length + ' passages used</td>'],
+    ['Answer supported by the passages (grounding)', score(gs.grounding, 0.75)],
+    ['Answer addresses the question (relevance)', score(gs.relevance, 0.5)],
+    ['Every statement cited', r.outcome === 'answered' ? '<td class="ok">Yes</td>' : '<td class="muted">No answer shown</td>'],
+    ['Cost and time', '<td>' + usd(r.cost_usd) + ', ' + (r.latency_ms / 1000).toFixed(1) + ' seconds</td>'],
+    ['Logged as', '<td>' + (r.log_id ? '#' + r.log_id : 'not logged') + '</td>'],
   ];
-  return '<section class="checked" aria-label="How this answer was checked"><h2>How this answer was checked</h2><ol>' +
-    items.map(([k, v]) => '<li><b>' + k + '</b><span>' + v + '</span></li>').join('') + '</ol></section>';
+  return '<details><summary>How this answer was checked</summary><table><tr><th>Check</th><th>Result</th></tr>' +
+    rows.map(([a, b]) => '<tr><td>' + a + '</td>' + b + '</tr>').join('') + '</table></details>';
 }
 function render(r){
-  let h = '<h2 class="sr">Answer</h2>';
+  let h = '';
   if (r.outcome === 'answered'){
-    h += '<p class="made">Written by Amazon Nova Lite from ' + r.passages.length + ' passages.</p>' + paragraphs(r);
-  } else if (r.outcome === 'blocked_input'){
-    h += '<p class="made">Declined at screening.</p><p class="declined"><strong>Declined.</strong> ' + esc(r.answer) + '</p>';
-  } else if (r.outcome === 'blocked_output'){
-    const why = ((r.guardrail.output || {}).blocked || []).map(REASON).join(', ');
-    h += '<p class="made">Withheld after checking' + (why ? ': ' + why : '') + '.</p><p class="declined"><strong>Withheld.</strong> ' + esc(r.answer) + '</p>';
+    const ok = new Set(r.citations.map(c => c.n));
+    h += '<p class="generated">Generated by Amazon Nova Lite from the sources below.</p>';
+    h += r.answer.split(/\n\s*\n/).filter(p => p.trim()).map(p => '<p>' + esc(p.trim()).replace(/\n/g, '<br>')
+      .replace(/\[(\d+)\]/g, (m, n) => ok.has(+n) ? ' <sup><a href="#s' + n + '">[' + n + ']</a></sup>' : '') + '</p>').join('');
+    h += '<h2>Sources</h2><ol class="sources">' + r.citations.map(c => '<li id="s' + c.n + '" value="' + c.n + '"><a href="' + esc(c.url) + '" rel="noopener">' +
+      esc(title(c.title)) + '</a><span class="src-meta">' + esc(c.section) + ' · updated ' + day(c.updated) + '</span></li>').join('') + '</ol>';
   } else {
-    h += '<p class="made">No passage answered it closely enough.</p><p class="declined">' + esc(r.answer) + '</p>';
+    const why = r.outcome === 'blocked_output' ? ((r.guardrail.output || {}).blocked || []).map(REASON).join(', ') : '';
+    h += '<div class="declined"><strong>' + (OUTCOME[r.outcome] || 'No answer') + '.</strong> ' + esc(r.answer) + (why ? ' <span class="muted">(' + why + ')</span>' : '') + '</div>';
   }
   box.innerHTML = h + checks(r);
-  box.querySelectorAll('.cite').forEach(c => {
-    const on = v => box.querySelectorAll('[data-n="' + c.dataset.n + '"]').forEach(e => e.classList.toggle('hot', v));
-    ['mouseenter','focus'].forEach(ev => c.addEventListener(ev, () => on(true)));
-    ['mouseleave','blur'].forEach(ev => c.addEventListener(ev, () => on(false)));
-  });
 }
 async function ask(question){
-  go.disabled = true; status.textContent = 'Checking the documents…'; box.classList.add('out');
+  go.disabled = true; status.textContent = 'Checking the documents…';
   try {
     const res = await fetch('api/ask', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({question})});
     if (!res.ok) throw new Error(res.status === 422 ? 'The question needs between 3 and 1,000 characters.' : res.status === 503 ? 'The model service isn’t available right now.' : 'The service returned an error (' + res.status + ').');
     render(await res.json());
-    status.textContent = '';
+    loadLog();
   } catch (e){
-    box.innerHTML = '<p class="problem">' + esc(e.message || 'The service couldn’t be reached.') + ' Nothing was answered. Try again in a moment.</p>';
-    status.textContent = '';
-  } finally {
-    go.disabled = false; box.classList.remove('out');
-  }
+    box.innerHTML = '<div class="declined">' + esc(e.message || 'The service couldn’t be reached.') + ' Nothing was answered.</div>';
+  } finally { go.disabled = false; status.textContent = ''; }
 }
 $('#form').addEventListener('submit', e => { e.preventDefault(); const v = q.value.trim(); if (v.length >= 3) ask(v); });
-q.addEventListener('keydown', e => { if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) $('#form').requestSubmit(); });
-document.querySelectorAll('[data-q]').forEach(b => b.addEventListener('click', () => { q.value = b.dataset.q; ask(b.dataset.q); }));
+document.querySelectorAll('[data-q]').forEach(a => a.addEventListener('click', e => { e.preventDefault(); q.value = a.dataset.q; ask(a.dataset.q); }));
 
-/* results */
-async function loadResults(){
-  const tb = $('#results-body');
+/* how well it works */
+async function loadEval(){
+  const tb = $('#eval-body');
   try {
     const {evaluation: e, personal_data: p} = await (await fetch('api/evaluation')).json();
-    const res = (v, target) => v == null ? '<td class="r pending">no run yet</td><td class="pending">Awaiting the first evaluation run</td>'
-      : '<td class="r"><b>' + pct(v) + '</b></td><td>' + (v >= target ? 'Meets the target' : '<span class="stop">Below the target</span>') + '</td>';
+    const res = (v, t) => v == null ? '<td class="muted">No run yet</td>' : '<td class="' + (v >= t ? 'ok' : 'bad') + '">' + pct(v) + '</td>';
     const g = e && e.golden, o = e && e.out_of_scope, i = e && e.injection, pl = e && e.planted;
+    const found = p ? ['passages', 'audit_log'].reduce((n, k) => n + p[k].personal_names_found + p[k].emails_found + p[k].phone_numbers_found, 0) : null;
     const rows = [
-      ['The right passage is in the top five', '90% of the golden questions', res(g && g.hit_at_5, 0.9)],
-      ['Answers are supported by their passages', 'Every answer', res(g && g.judged_supported, 1)],
-      ['Out-of-scope questions are declined', '95%', res(o && o.declined, 0.95)],
-      ['Prompt injections are resisted', 'All, and the planted document', i ? '<td class="r"><b>' + pct(i.held) + '</b></td><td>' + (i.held === 1 && pl && pl.held ? 'Meets the target' : '<span class="stop">Below the target</span>') + '</td>' : res(null)],
+      ['N4 Right passage in the top five', '90%', res(g && g.hit_at_5, 0.9)],
+      ['N3 Answers grounded and cited', 'Every answer', res(g && g.judged_supported, 1)],
+      ['N5 Out-of-scope questions declined', '95%', res(o && o.declined, 0.95)],
+      ['N6 Prompt injections resisted', 'All', i ? '<td class="' + (i.held === 1 && pl && pl.held ? 'ok' : 'bad') + '">' + pct(i.held) + (pl ? ', planted document ' + (pl.held ? 'held' : 'not held') : '') + '</td>' : res(null)],
+      ['N1 Personal data in passages or the log', 'None', p == null ? res(null) : '<td class="' + (p.passed ? 'ok' : 'bad') + '">' + found + ' found, ' + day(p.at) + '</td>'],
     ];
-    const pd = p ? (p.passages.personal_names_found + p.passages.emails_found + p.passages.phone_numbers_found +
-                    p.audit_log.personal_names_found + p.audit_log.emails_found + p.audit_log.phone_numbers_found) : null;
-    rows.push(['No contact details in passages or the log', 'None', p == null ? res(null)
-      : '<td class="r"><b>' + pd + ' found</b></td><td>' + (p.passed ? 'Passed, ' + day(p.at) : '<span class="stop">Failed, ' + day(p.at) + '</span>') + '</td>']);
     tb.innerHTML = rows.map(([a, b, c]) => '<tr><td>' + a + '</td><td>' + b + '</td>' + c + '</tr>').join('');
-    const notes = [];
-    if (e) notes.push('Evaluation run ' + esc(e.run) + ' cost ' + usd(e.cost_usd) + '.');
-    if (p) notes.push('The contact check searched ' + p.passages.rows.toLocaleString('en-GB') + ' passages and ' + p.audit_log.rows.toLocaleString('en-GB') + ' log entries for ' +
-      Object.values(p.contact_values_checked).reduce((a, b) => a + b, 0) + ' names, email addresses and phone numbers taken from the raw notices.');
-    $('#results-note').textContent = notes.join(' ');
-  } catch { tb.innerHTML = '<tr><td colspan="4">The results couldn’t be loaded.</td></tr>'; }
+  } catch { tb.innerHTML = '<tr><td colspan="3">The results couldn’t be loaded.</td></tr>'; }
 }
 
 /* audit log */
 async function loadLog(){
   const tb = $('#log-body');
   try {
-    const rows = await (await fetch('api/audit?limit=25')).json();
-    tb.innerHTML = rows.length ? rows.map(r => '<tr><td>' + when(r.at) + '</td><td class="q">' + masks(r.question) + '</td><td' +
-      (r.outcome.startsWith('blocked') ? ' class="stop"' : '') + '>' + (OUTCOME[r.outcome] || esc(r.outcome)) + '</td><td class="r">' + (r.passages ?? 0) +
-      '</td><td class="r">' + usd(r.cost_usd) + '</td></tr>').join('')
-      : '<tr><td colspan="5" class="pending">Nothing has been asked yet.</td></tr>';
+    const rows = await (await fetch('api/audit?limit=10')).json();
+    tb.innerHTML = rows.length ? rows.map(r => '<tr><td>' + when(r.at) + '</td><td>' + masks(r.question) + '</td><td' + (r.outcome.startsWith('blocked') ? ' class="bad"' : '') + '>' +
+      (OUTCOME[r.outcome] || esc(r.outcome)) + '</td><td class="num">' + (r.passages ?? 0) + '</td><td class="num">' + usd(r.cost_usd) + '</td></tr>').join('')
+      : '<tr><td colspan="5" class="muted">Nothing has been asked yet.</td></tr>';
   } catch { tb.innerHTML = '<tr><td colspan="5">The log couldn’t be loaded.</td></tr>'; }
 }
 
 /* documents */
 let DOCS = [];
-const SHOWN = 25;
+const NAMES = {guidance:'Procurement Act 2023 guidance', ppn:'Procurement policy notes for the Act', notice:'Find a Tender notices'};
 function showDocs(src){
-  const all = DOCS.filter(d => d.source === src);
-  $('#list').innerHTML = all.slice(0, SHOWN).map(d => '<div class="item"><span>' + day(d.updated) + '</span>' +
-    (d.url ? '<a class="t" href="' + esc(d.url) + '" rel="noopener">' + esc(title(d.title)) + '</a>' : '<span class="t">' + esc(title(d.title)) + '</span>') + '</div>').join('') +
-    (all.length > SHOWN ? '<p class="more">The newest ' + SHOWN + ' of ' + all.length + '.</p>' : '');
+  $('#list').innerHTML = DOCS.filter(d => d.source === src).slice(0, 10).map(d => '<tr><td class="num">' + day(d.updated) + '</td><td><a href="' + esc(d.url) + '" rel="noopener">' + esc(title(d.title)) + '</a></td></tr>').join('');
 }
 async function loadDocs(){
   try {
-    const [docs, corpus] = await Promise.all([fetch('api/documents').then(r => r.json()), fetch('api/corpus').then(r => r.json())]);
-    DOCS = docs;
-    $('#passages').textContent = corpus.passages.toLocaleString('en-GB');
-    $('#corpus-line').textContent = 'passages from ' + corpus.documents + ' documents, fixed by a manifest of dates and checksums';
-    for (const s of ['guidance', 'ppn', 'notice']) document.querySelector('[data-count="' + s + '"]').textContent = docs.filter(d => d.source === s).length + ' documents';
-    showDocs(document.querySelector('.src [aria-selected="true"]').dataset.src);
-  } catch { $('#list').innerHTML = '<p class="more">The documents couldn’t be loaded.</p>'; }
+    DOCS = await (await fetch('api/documents')).json();
+    $('#docs-body').innerHTML = ['guidance', 'ppn', 'notice'].map(s => {
+      const d = DOCS.filter(x => x.source === s);
+      return '<tr><td>' + NAMES[s] + '</td><td class="num">' + d.length + '</td><td>' + (d.length ? day(d[0].updated) : '') + '</td></tr>';
+    }).join('');
+    showDocs('guidance');
+  } catch { $('#docs-body').innerHTML = '<tr><td colspan="3">The documents couldn’t be loaded.</td></tr>'; }
 }
-const src = [...document.querySelectorAll('.src button')];
-src.forEach((b, i) => {
-  b.tabIndex = i ? -1 : 0;
-  b.addEventListener('click', () => { src.forEach(x => { x.setAttribute('aria-selected', x === b); x.tabIndex = x === b ? 0 : -1; }); showDocs(b.dataset.src); });
-  b.addEventListener('keydown', e => { const k = {ArrowDown:1,ArrowRight:1,ArrowUp:-1,ArrowLeft:-1}[e.key]; if (!k) return; e.preventDefault(); const n = src[(i + k + src.length) % src.length]; n.focus(); n.click(); });
-});
+document.querySelectorAll('#src-tabs button').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('#src-tabs button').forEach(x => x.setAttribute('aria-pressed', x === b));
+  showDocs(b.dataset.src);
+}));
 
-/* views */
-const LOAD = {results: loadResults, log: loadLog, docs: loadDocs};
-const tabs = [...document.querySelectorAll('.tabs button')];
-function show(v){
-  if (!document.getElementById(v)) v = 'ask';
-  tabs.forEach(t => { const on = t.dataset.v === v; t.setAttribute('aria-selected', on); t.tabIndex = on ? 0 : -1; });
-  document.querySelectorAll('.view').forEach(s => s.classList.toggle('on', s.id === v));
-  if (LOAD[v]) LOAD[v]();
-}
-tabs.forEach((t, i) => {
-  t.addEventListener('click', () => { history.replaceState(null, '', '#' + t.dataset.v); show(t.dataset.v); });
-  t.addEventListener('keydown', e => { const k = {ArrowRight:1,ArrowLeft:-1}[e.key]; if (!k) return; const n = tabs[(i + k + tabs.length) % tabs.length]; n.focus(); n.click(); });
-});
-show(location.hash.slice(1) || 'ask');
+/* nav highlight */
+const links = [...document.querySelectorAll('nav a')];
+const spy = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) links.forEach(a => a.classList.toggle('on', a.getAttribute('href') === '#' + e.target.id)); }), {rootMargin:'-40% 0px -55% 0px'});
+document.querySelectorAll('main section').forEach(s => spy.observe(s));
+
+loadEval(); loadLog(); loadDocs();
 </script>
 </body>
 </html>

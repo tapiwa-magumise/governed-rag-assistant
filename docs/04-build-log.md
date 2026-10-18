@@ -56,7 +56,7 @@ The budget's alert address is passed when Terraform runs, so it never sits in th
 
 ### From a React plan to one HTML file
 
-The brief planned a small React page. Once the design settled, the page needed no state beyond the current answer and four views, so it became one HTML file that FastAPI serves next to the API, with no build step and no npm packages to keep current. The fonts are served from the same place: loading them from Google would send every visitor's address to Google, which a tool built around data protection shouldn't do.
+The brief planned a small React page. Once the design settled, the page needed no state beyond the current answer and four views, so it became one HTML file that FastAPI serves next to the API, with no build step and no npm packages to keep current. It uses the system's own fonts, so nothing is loaded from elsewhere and no visitor's address goes to a font service.
 
 ### When Bedrock refuses
 
