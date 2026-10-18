@@ -23,10 +23,10 @@ An assistant that answers questions about UK public procurement. It reads only 2
 
 ## What it's not for
 
-- **Legal advice.** It describes what the guidance says. It won't say what to do in a particular dispute, and it declines when asked. Anything that matters should go to a lawyer.
-- **Finding open tenders.** The notices are a fixed sample from September 2026, and most have closed.
-- **Contacting buyers.** Contact names, emails and phone numbers are never read into it, so it can't answer "who is the contact for this tender?". The notice itself, linked from every citation, has them.
-- **Anything outside public procurement.** It declines.
+- Legal advice. It describes what the guidance says. It won't say what to do in a particular dispute, and it declines when asked. Anything that matters should go to a lawyer.
+- Finding open tenders. The notices are a fixed sample from September 2026, and most have closed.
+- Contacting buyers. Contact names, emails and phone numbers are never read into it, so it can't answer "who is the contact for this tender?". The notice itself, linked from every citation, has them.
+- Anything outside public procurement. It declines.
 
 ## Before relying on an answer
 
@@ -59,12 +59,12 @@ The evaluation hasn't run because Bedrock stopped accepting model calls in this 
 
 These are known weaknesses of the design. How often each happens will be measured by the evaluation.
 
-- **It can withhold a correct answer.** The grounding check is strict by design; a correct answer phrased differently from its passage may score below the bar. The reply then says it couldn't give an answer the documents support.
-- **It can miss a passage.** If the right paragraph isn't among the six it finds, the answer is incomplete or it says the documents don't answer.
-- **Documents can disagree.** The Utilities Contracts guidance (April 2026) still gives the 2024 threshold for utilities works; PPN 023 sets a lower one from 1 January 2026. The assistant shows the date of each source, and the newer one should win. One of the test questions checks this.
-- **It's a snapshot.** Guidance published after the documents were downloaded isn't there.
-- **Masking isn't perfect.** Names are found by the guardrail's detector, which can miss unusual names or mark ordinary words. The contact sections of notices are excluded entirely for this reason, rather than relying on masking.
-- **Its refusals rely on wording.** A request for legal advice phrased as a general question may get a general answer.
+- It can withhold a correct answer. The grounding check is strict by design; a correct answer phrased differently from its passage may score below the bar. The reply then says it couldn't give an answer the documents support.
+- It can miss a passage. If the right paragraph isn't among the six it finds, the answer is incomplete or it says the documents don't answer.
+- Documents can disagree. The Utilities Contracts guidance (April 2026) still gives the 2024 threshold for utilities works; PPN 023 sets a lower one from 1 January 2026. The assistant shows the date of each source, and the newer one should win. One of the test questions checks this.
+- It's a snapshot. Guidance published after the documents were downloaded isn't there.
+- Masking isn't perfect. Names are found by the guardrail's detector, which can miss unusual names or mark ordinary words. The contact sections of notices are excluded entirely for this reason, rather than relying on masking.
+- Its refusals rely on wording. A request for legal advice phrased as a general question may get a general answer.
 
 ## Data and privacy
 
