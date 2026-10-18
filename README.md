@@ -1,6 +1,6 @@
 # Governed RAG assistant
 
-[![ci](https://github.com/gumagatsby/governed-rag-assistant/actions/workflows/ci.yml/badge.svg)](https://github.com/gumagatsby/governed-rag-assistant/actions/workflows/ci.yml)
+[![ci](https://github.com/tapiwa-magumise/governed-rag-assistant/actions/workflows/ci.yml/badge.svg)](https://github.com/tapiwa-magumise/governed-rag-assistant/actions/workflows/ci.yml)
 
 An assistant that answers questions about UK public procurement from 260 published documents: the Procurement Act 2023 guidance, the current procurement policy notes, and a month of tender notices from Find a Tender. Every answer cites its passages, every model call runs in London, and personal data in the notices is masked before anything is stored.
 
