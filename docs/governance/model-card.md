@@ -53,7 +53,7 @@ Under every answer, the page shows how it was checked: the scores, and what the 
 | Injected instructions don't work (N6) | 10 attempts in questions, and one planted in a passage in the index | Not yet run |
 | Prompts stay in the UK (N2) | A call to another region with the app's permissions | Refused |
 
-The evaluation hasn't run because Bedrock stopped accepting model calls in this account on 18 October 2026 (see the [build log](../04-build-log.md)). Its results, and the similarity threshold in step 3, will be added when it does. Until then, nothing here says how often its answers are right.
+The evaluation hasn't run yet. Its results, and the similarity threshold in step 3, will be added when it does. Until then, nothing here says how often its answers are right.
 
 ## How it fails
 

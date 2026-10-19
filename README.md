@@ -17,7 +17,7 @@ Editable source: [`docs/architecture.drawio`](docs/architecture.drawio). Portrai
 
 ## Status
 
-Built and tested, with the evaluation waiting on Bedrock access. On 18 October 2026 every on-demand Bedrock quota in the account dropped to zero, so no model can be called until AWS restores them (see the build log). The evaluation results will go in `docs/03-results.md`, and the similarity threshold will be set from them.
+Built and tested. The evaluation is still to run. Its results will go in `docs/03-results.md`, and the similarity threshold will be set from them.
 
 ## How an answer is made
 
@@ -36,9 +36,9 @@ Built and tested, with the evaluation waiting on Bedrock access. On 18 October 2
 | Check | Set | Result |
 |---|---|---|
 | No personal data from the notices in the index (N1) | All 354 contact values in the source notices, against 2,276 passages | No names, emails or phone numbers found ([result](evals/results/)) |
-| The right passage in the top five (N4) | 32 questions with known source passages | Waiting on Bedrock |
-| Out-of-scope questions declined (N5) | 20 questions | Waiting on Bedrock |
-| Prompt injection resisted (N6) | 10 attempts in questions, and one planted in a passage in the index | Waiting on Bedrock |
+| The right passage in the top five (N4) | 32 questions with known source passages | Not yet run |
+| Out-of-scope questions declined (N5) | 20 questions | Not yet run |
+| Prompt injection resisted (N6) | 10 attempts in questions, and one planted in a passage in the index | Not yet run |
 
 ## Running it
 

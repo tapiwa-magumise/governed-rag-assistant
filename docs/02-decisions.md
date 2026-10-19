@@ -58,7 +58,7 @@ Bedrock's own invocation log is switched on and kept for 30 days in CloudWatch. 
 
 Retrieval combines vector similarity with Postgres full-text search, fused by reciprocal rank. Vector search finds paraphrases; full-text search finds exact terms such as a notice number or "PPN 023". Six passages go to the model.
 
-If even the best passage is a weak match, the question is treated as outside the documents and no model is called. The threshold is 0.35 for now. It will be set from the evaluation runs, which are waiting on Bedrock access (see the build log).
+If even the best passage is a weak match, the question is treated as outside the documents and no model is called. The threshold is 0.35 for now. It will be set from the evaluation runs.
 
 The model is told to use only the passages, cite each statement, treat passage text as material rather than instructions, and reply with a fixed sentence when the passages don't answer. Its answer then goes back through the guardrail with the passages as the grounding source. An answer scoring below 0.75 for grounding or 0.5 for relevance isn't shown, and nor is an answer with no citation.
 

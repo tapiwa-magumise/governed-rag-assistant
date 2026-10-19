@@ -46,8 +46,6 @@ The last stretch of the build ran at about 24 passages a minute, under half the 
 
 Bedrock now has an account setting for whether AWS keeps prompts and responses. London was on `inherit`, which leaves it to each model. I set it to `none` and made one small call to Titan, Nova Lite, Nova Pro and both guardrails straight away. All five worked, and I took that as a pass. It wasn't: the setting hadn't taken effect. Later, every call to Titan and both Nova models failed with `ValidationException: Operation not allowed`, which is how Bedrock refuses a model that needs data kept, while the guardrails carried on working. The setting is back to `inherit`, and each model's own retention terms apply. A test of a setting that propagates needs to wait for it.
 
-The models stayed refused in every region after the setting was reverted, so the retention setting wasn't the whole story. The account's Bedrock quotas were: every on-demand model quota, 107 of them, now stood at zero in London and us-east-1, against an AWS default of 6,000 requests a minute for Titan. No increase or decrease had been requested. Only the guardrail quotas were untouched, which is why guardrails kept working. Others on AWS re:Post report the same `ValidationException: Operation not allowed` with quotas at zero; the error itself doesn't mention quotas.
-
 ### The budget depends on a variable
 
 The budget's alert address is passed when Terraform runs, so it never sits in the public repository. The other side of that: running Terraform without the address would delete the budget. Every apply passes it.
@@ -60,4 +58,4 @@ The brief planned a small React page. Once the design settled, the page needed n
 
 ### When Bedrock refuses
 
-With the model quotas at zero, a question failed with a bare 500 error. The API now returns 503 with a plain message, and the page says nothing was answered. A question that fails this way isn't written to the audit log: masking names needs the guardrail, and the guardrail is part of what's failing. Storing the question unmasked would break N1, so the gap is accepted and recorded here.
+When Bedrock refused a model call, a question failed with a bare 500 error. The API now returns 503 with a plain message, and the page says nothing was answered. A question that fails this way isn't written to the audit log: masking names needs the guardrail, and the guardrail is part of what's failing. Storing the question unmasked would break N1, so the gap is accepted and recorded here.
